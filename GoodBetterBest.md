@@ -25,7 +25,13 @@ Global Genome Biodiversity Network (GGBN):
 (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3965106/)
 
 [DataONE](https://www.dataone.org/)
-If you are organizing a project from the beginning, please look at the following resources for guidance on such topics as:  
-data quality control, data protection, data backup, how to write quality metadata, analysis and workflows, and data citation (get your data sets cited! not just your papers). [Data Management Planning](https://www.dataone.org/data-management-planning)
+If you are organizing a project from the beginning, please look at the following resources for guidance on such topics as
+*data quality control, 
+*data protection,
+*data backup, 
+*how to write quality metadata,
+*analysis and workflows, and 
+*data citation (get your data sets cited! not just your papers).  
+[Data Management Planning](https://www.dataone.org/data-management-planning)
 [Data Management Education Modules](https://www.dataone.org/education-modules)
 
