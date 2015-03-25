@@ -108,6 +108,18 @@ what I did and why
  - Have students add a hypothetical new isolate to the Patric O104:H4 database
  - From an already populated file structure with data, assemblies, etc., find a particular output (for example, can you find the assembly done with assembly program X and hash length N)
 
-
+- I can describe what makes a good file name
+ - give a small set of filenames (with issues) and ask them to come up with a list of what the issues are.
+  - example issues in filnames
+   - month-day ambiguous
+   - spaces in file names
+   - special characters
+- I know enough vocabulary to look for help
+- I can redo my analysis from scratch, change one parameter for publication, check that results are reproducible, etc
+ - Documenting workflow/processes can be integrated into modules throughout the workshop
+- Declarative knowledge
+ - I can list three places to get information about data standards for my field
+ - I can list the pros and cons of various long-term raw data storage methods
+ - I can explain the difference between using unique identifiers within my lab, and using globally unique identifiers to name samples
 
 
