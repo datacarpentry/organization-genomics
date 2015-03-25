@@ -3,7 +3,7 @@ Project setup
 
 Group
 -----
-Amanda Charbonneau, Tracy Teal, Laura Williams, Juan Ugalde, ...
+Amanda Charbonneau, Tracy Teal, Laura Williams, Juan Ugalde, Deb Paul
 
 Learning Objectives:
 -------------------
