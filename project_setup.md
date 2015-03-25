@@ -106,7 +106,7 @@ what I did and why
  - Have the students restructure their first try at organizing the Patric 0104H4 dataset
 - I can set up a cohesive and well-documented data collection system and consistently apply it to projects
  - Have students add a hypothetical new isolate to the Patric O104:H4 database
- - From an already populated file structure with data,
+ - From an already populated file structure with data, assemblies, etc., find a particular output (for example, can you find the assembly done with assembly program X and hash length N)
 
 
 
