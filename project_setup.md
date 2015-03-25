@@ -81,14 +81,14 @@ opportunities for data storage/management through other resources
 Be measurable, specific, precise. 
 
 Attitudes
-I feel that having #reproducible data is worth the time collating the metadata
+- I feel that having #reproducible data is worth the time collating the metadata
 Rate your feelings from 1 to 5(most true): 
-If necessary, it will be easy to re-process my sequencing data as long as I know what programs I used, and in what order
-If two people analyze sequencing data using the same set of tools they will always get the same answer
-I need to write down which programs I use to process my sequencing data, and in what order
-My computer automatically records the steps of my data processing
-I can predict what would be in my colleagues "e-coli assembly" folder, without looking
-A readme file should be written only after all the work is finished, so it will be well-written and complete
+ - If necessary, it will be easy to re-process my sequencing data as long as I know what programs I used, and in what order
+ - If two people analyze sequencing data using the same set of tools they will always get the same answer
+ - I need to write down which programs I use to process my sequencing data, and in what order
+ - My computer automatically records the steps of my data processing
+ - I can predict what would be in my colleagues "e-coli assembly" folder, without looking
+ - A readme file should be written only after all the work is finished, so it will be well-written and complete
 
 I think that documenting my digital data processing is as important as documenting my laboratory data processing- what I did and why
 How long do you typically spend documenting your computational processing (sequencing data cleaning at several cutoffs)?  Your laboratory processing (PCR experiment with many temps/salt concentrations)?
