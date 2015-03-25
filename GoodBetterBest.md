@@ -31,7 +31,8 @@ If you are organizing a project from the beginning, please look at the following
 * data backup, 
 * how to write quality metadata,
 * analysis and workflows, and 
-* data citation (get your data sets cited! not just your papers).  
-[Data Management Planning](https://www.dataone.org/data-management-planning)
+* data citation (get your data sets cited! not just your papers). 
+  
+[Data Management Planning](https://www.dataone.org/data-management-planning)  
 [Data Management Education Modules](https://www.dataone.org/education-modules)
 
