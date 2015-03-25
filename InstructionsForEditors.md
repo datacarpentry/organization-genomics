@@ -1,6 +1,6 @@
 #What's been done
 
-I've created a number of empty "mini-modules" with names that reflect our list of learning objectives, as well as a number of "issues", which are smaller chunks of each section that need to be tackled. 
+I've created a number of empty "mini-modules" with names that reflect our list of learning objectives, as well as a number of "issues", which are smaller chunks of each section that need to be tackled.
 
 ##Proposed plan of action
 
@@ -11,6 +11,7 @@ I've created a number of empty "mini-modules" with names that reflect our list o
   4. Be sure to claim an issue before you start to work on it, so we don't have to do too much de-convoluting simultanous changes
   5. Make your own issues! If you get stuck on your lesson, request help with an issue. No request is too small
   6. Check the issues frequently! Even if you don't have a ton of time to help, some issues are as simple as "add a link" or "check my grammar"
+  7. If you have ideas you want to discuss, we can also do that as a discussion thread on an issue, just tag it as a question
 
 ###MiniModules
   1. If you want to be completely in charge of a mini-module, make it an issue, and then claim it
