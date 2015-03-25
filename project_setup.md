@@ -94,9 +94,9 @@ Rate your feelings from 1 to 5 (most true):
 - I think that documenting my digital data processing is as important as documenting my laboratory data processing  
 what I did and why
  - How long do you typically spend documenting your computational processing (sequencing data cleaning at several cutoffs)?  Your laboratory processing (PCR experiment with many temps/salt concentrations)?
- - I think of my digital data processing as hypothesis testing and a series of experiments
-- How many times to you expect to process your sequencing data before you'll believe it's accurate?
-- How many times do you typically amplify a gene sequence before you'll believe it's accurate?
+- I think of my digital data processing as hypothesis testing and a series of experiments
+ - How many times to you expect to process your sequencing data before you'll believe it's accurate?
+ - How many times do you typically amplify a gene sequence before you'll believe it's accurate?
 
 #####Skills
 - I can identify shortcomings in other datasets  
