@@ -101,25 +101,24 @@ what I did and why
 #####Skills
 * I can identify shortcomings in other datasets  
  + give students the Patric 0104H4 database and ask them to organize the metadata for their own use. Later have them revisit their results and pick out some data, or pick out data from a neighbor to demo how easy it is to get lost in your own poorly organized filing system (see below for detailed example)
-  + Patric 0104H4 Dataset: http://patricbrc.org/portal/portal/patric/GenomeList?cType=taxon&cId=1038927&displayMode=&dataSource=PATRIC&pk=#aP0=1&aP1=1&aT=0&key=1349703250&cwG=false&tId=1038927&gName=&kW=
-- I can transform badly structured data into well structured data
- - Have the students restructure their first try at organizing the Patric 0104H4 dataset
-- I can set up a cohesive and well-documented data collection system and consistently apply it to projects
- - Have students add a hypothetical new isolate to the Patric O104:H4 database
- - From an already populated file structure with data, assemblies, etc., find a particular output (for example, can you find the assembly done with assembly program X and hash length N)
-
-- I can describe what makes a good file name
- - give a small set of filenames (with issues) and ask them to come up with a list of what the issues are.
-  - example issues in filnames
+   - Patric 0104H4 Dataset: http://patricbrc.org/portal/portal/patric/GenomeList?cType=taxon&cId=1038927&displayMode=&dataSource=PATRIC&pk=#aP0=1&aP1=1&aT=0&key=1349703250&cwG=false&tId=1038927&gName=&kW=
+* I can transform badly structured data into well structured data
+ + Have the students restructure their first try at organizing the Patric 0104H4 dataset
+* I can set up a cohesive and well-documented data collection system and consistently apply it to projects
+ + Have students add a hypothetical new isolate to the Patric O104:H4 database
+ + From an already populated file structure with data, assemblies, etc., find a particular output (for example, can you find the assembly done with assembly program X and hash length N)
+* I can describe what makes a good file name
+  + give a small set of filenames (with issues) and ask them to come up with a list of what the issues are.
+   - example issues in filnames
    - month-day ambiguous
    - spaces in file names
    - special characters
-- I know enough vocabulary to look for help
-- I can redo my analysis from scratch, change one parameter for publication, check that results are reproducible, etc
- - Documenting workflow/processes can be integrated into modules throughout the workshop
-- Declarative knowledge
- - I can list three places to get information about data standards for my field
- - I can list the pros and cons of various long-term raw data storage methods
- - I can explain the difference between using unique identifiers within my lab, and using globally unique identifiers to name samples
+* I know enough vocabulary to look for help
+* I can redo my analysis from scratch, change one parameter for publication, check that results are reproducible, etc
+ + Documenting workflow/processes can be integrated into modules throughout the workshop
+* Declarative knowledge
+ + I can list three places to get information about data standards for my field
+ + I can list the pros and cons of various long-term raw data storage methods
+ + I can explain the difference between using unique identifiers within my lab, and using globally unique identifiers to name samples
 
 
