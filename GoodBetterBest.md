@@ -17,13 +17,12 @@ Add a column to your dataset starting with MyLab1, MyLab2...MyLabN, so each samp
 
 
 ####Best
+To maximize your data for use by you in perpetuity, your collaborators and future researchers, it is a best practice to map (re-name) your data and metadata fields to **standard terms.** The [Genomics Standards Consortium (GSC)](http://gensc.org/) and the [Biodiversity Informatics Standards (TDWG)](http://www.tdwg.org/) group developed a robust set of concepts (terms) for sharing genomics data using an agreed-upon list of term names.  
+[GGBN Data Standard Terms]: (http://terms.tdwg.org/wiki/GGBN_Data_Standard)
+
 [Genomics Data Standards]
 (http://nar.oxfordjournals.org/content/early/2013/10/16/nar.gkt928.full)
 The Global Genome Biodiversity Network (GGBN) was formed in 2011 with the principal aim of making high-quality well-documented and vouchered collections that store DNA or tissue samples of biodiversity, discoverable for research through a networked community of biodiversity repositories. This is achieved through the GGBN Data Portal (http://data.ggbn.org), which links globally distributed databases and bridges the gap between biodiversity repositories, sequence databases and research results. 
-Global Genome Biodiversity Network (GGBN):
-[GGBN Data Standard Terms: http://terms.tdwg.org/wiki/GGBN_Data_Standard]
-(http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3965106/)
-
 [DataONE](https://www.dataone.org/)
 If you are organizing a project from the beginning, please look at the following resources for guidance on such topics as data quality control, data protection, data backup, how to write quality metadata, analysis and workflows, and data citation (**get your data sets cited!** not just your papers).  
 [DataONE Data Management Planning](https://www.dataone.org/data-management-planning)  
