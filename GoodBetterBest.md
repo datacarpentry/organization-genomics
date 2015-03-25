@@ -8,8 +8,9 @@ We've compiled a list of common data issues, and some suggestions for Good, Bett
 ###Column Headers
 Your datasheets and metadata sheets should have column names that are meaningful both to you and to other people who may use your data. If you intend to import this data into R, Python or other program, avoid spaces and non-standard characters.
 ####Good
-
+Name your columns something as short as possible while still being unique and descriptive. Make column comments with an extended description of each column header and any abbreviations in the data sheet. 
 ####Better
+
 
 ####Best
 You can use the [Biocode Field Information Management System](http://biscicol.org/biocode-fims/) to generate datasheets with globally acccepted field names. Click on **Tools** to get started.
@@ -28,7 +29,7 @@ The Global Genome Biodiversity Network (GGBN) was formed in 2011 with  the princ
 Global Genome Biodiversity Network (GGBN):
 [GGBN Data Standard Terms: http://terms.tdwg.org/wiki/GGBN_Data_Standard](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3965106/)
 
-###Dates
+###Dates, times and temperatures
 In the field, it's often easiest to write collection dates in a familiar format, but programs like R and Excel may do very weird things with dates.
 
 ####Good
