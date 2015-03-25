@@ -11,7 +11,11 @@ the organization of legacy data to get it into public database formats.
 Each of your samples should have a unique identifier, and a set of standardized metadata.
 
 ####Good
-Add a column to your dataset starting with 1 
+Add a column to your dataset starting with MyLab1, MyLab2...MyLabN, so each sample gets a unique ID
+
+####Better
+
+
 ####Best
 Genomics Data Standards
 http://nar.oxfordjournals.org/content/early/2013/10/16/nar.gkt928.full
