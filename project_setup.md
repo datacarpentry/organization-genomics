@@ -115,6 +115,7 @@ Please remember (Where possible): Be measurable, specific, precise.
 * I know enough vocabulary to look for help
 * I can redo my analysis from scratch, change one parameter for publication, check that results are reproducible, etc
  + Documenting workflow/processes can be integrated into modules throughout the workshop
+
 #####Declarative knowledge
 * I can list three places to get information about data standards for my field
 * I can list the pros and cons of various long-term raw data storage methods
