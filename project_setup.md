@@ -9,13 +9,15 @@ Learning Objectives:
 -------------------
 
 #### What's the motiviation for this lesson?
-* Equip learners with knowledge and skills to organize and access data so that they and their colleagues can use it
+* Equip learners with knowledge and skills to organize and access data so that they and their colleagues can use it.
 * Keeping you data accessible to you. Sequencing centers don't keep the data (for example), and you might need to redo analysis.
 * Keep track of your analysis. In two months, you won't remember what you did with your data.
-* Sharing with collaborators is less fraught with anxiety that you're giving them the right version or the clean version
-* When you go to publish your paper, you have your data ready to put in the data repository
-* Journals and databases are requiring this information
+* Sharing with collaborators is less fraught with anxiety that you're giving them the right version or the clean version.
+* When you go to publish your paper, you have your data ready to put in the data repository.
+* Journals and databases are requiring this information.
 * Makes you feel happy 
+* Highlights the importance of what to consider when setting up a project from scratch or how to manage when inheriting someone else's data.
+* Introduces learners to best practices for using data standards to share data for *reproducibility*
 
 #### What mindset change should the learner have? (ie, awareness of certain techniques)
 
@@ -40,7 +42,6 @@ Learning Objectives:
 * management of analysis files
 * Documenting your steps / data exploration (this could be incorporated in to data wrangling)
   * What you did and why
-
 
 #### What would be an exercise:
 
@@ -120,4 +121,4 @@ Please remember (Where possible): Be measurable, specific, precise.
 * I can list the pros and cons of various long-term raw data storage methods
 * I can explain the difference between using unique identifiers within my lab, and using globally unique identifiers to name samples
 
-test
+
