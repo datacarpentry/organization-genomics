@@ -91,17 +91,17 @@ Rate your feelings from 1 to 5 (most true):
  + I can predict what would be in my colleagues "e-coli assembly" folder, without looking
  + A readme file should be written only after all the work is finished, so it will be well-written and complete
 
-- I think that documenting my digital data processing is as important as documenting my laboratory data processing  
+* I think that documenting my digital data processing is as important as documenting my laboratory data processing  
 what I did and why
- - How long do you typically spend documenting your computational processing (sequencing data cleaning at several cutoffs)?  Your laboratory processing (PCR experiment with many temps/salt concentrations)?
-- I think of my digital data processing as hypothesis testing and a series of experiments
- - How many times to you expect to process your sequencing data before you'll believe it's accurate?
- - How many times do you typically amplify a gene sequence before you'll believe it's accurate?
+ + How long do you typically spend documenting your computational processing (sequencing data cleaning at several cutoffs)?  Your laboratory processing (PCR experiment with many temps/salt concentrations)?
+* I think of my digital data processing as hypothesis testing and a series of experiments
+ + How many times to you expect to process your sequencing data before you'll believe it's accurate?
+ + How many times do you typically amplify a gene sequence before you'll believe it's accurate?
 
 #####Skills
-- I can identify shortcomings in other datasets  
- - give students the Patric 0104H4 database and ask them to organize the metadata for their own use. Later have them revisit their results and pick out some data, or pick out data from a neighbor to demo how easy it is to get lost in your own poorly organized filing system (see below for detailed example)  
-   - Patric 0104H4 Dataset: http://patricbrc.org/portal/portal/patric/GenomeList?cType=taxon&cId=1038927&displayMode=&dataSource=PATRIC&pk=#aP0=1&aP1=1&aT=0&key=1349703250&cwG=false&tId=1038927&gName=&kW=
+* I can identify shortcomings in other datasets  
+ + give students the Patric 0104H4 database and ask them to organize the metadata for their own use. Later have them revisit their results and pick out some data, or pick out data from a neighbor to demo how easy it is to get lost in your own poorly organized filing system (see below for detailed example)
+  + Patric 0104H4 Dataset: http://patricbrc.org/portal/portal/patric/GenomeList?cType=taxon&cId=1038927&displayMode=&dataSource=PATRIC&pk=#aP0=1&aP1=1&aT=0&key=1349703250&cwG=false&tId=1038927&gName=&kW=
 - I can transform badly structured data into well structured data
  - Have the students restructure their first try at organizing the Patric 0104H4 dataset
 - I can set up a cohesive and well-documented data collection system and consistently apply it to projects
