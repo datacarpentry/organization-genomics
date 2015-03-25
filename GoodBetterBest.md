@@ -1,7 +1,7 @@
 #Best practices
 If you're starting out a brand new project, it's easy to begin in an organized way. However, many of us inherit data that's organized in idiosyncratic ways that may work for the creator, but might not fit into your organization style, or aren't arranged in a way that public databases like NCBI will accept.
 
-We've compiled a list of common data issues, and some suggestions for Good, Better and Best practices. If you're begining with all new data, we suggest you try for Best in each instance, but also offer suggestions for improving the organization of legacy data to get it into public database formats.
+We've compiled a list of common data issues, and some suggestions for Good, Better and Best practices. If you're begining with all new data, we suggest you try for Best in each instance, but also offer suggestions for improving the organization of legacy data to get it into public database formats. The idea is not only to make your data robust for your own re-use but to make your data discoverable and re-usable by your collaborators and the worldwide community. In addition to getting your papers cited, use these practices to enhance the chances of *getting your data cited!*
 
 ##Naming standards
 
@@ -16,7 +16,7 @@ Name your columns something as short as possible while still being unique and de
 #####Better
 
 #####Best
-
+Use terms from *data standards* 
 You can use the Biocode Field Information Management System to generate datasheets with globally acccepted field names. Click on Tools to get started.
 
 ###Unique Sample Names
