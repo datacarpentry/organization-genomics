@@ -115,8 +115,8 @@ Please remember (Where possible): Be measurable, specific, precise.
 * I know enough vocabulary to look for help
 * I can redo my analysis from scratch, change one parameter for publication, check that results are reproducible, etc
  + Documenting workflow/processes can be integrated into modules throughout the workshop
-* Declarative knowledge
- + I can list three places to get information about data standards for my field
- + I can list the pros and cons of various long-term raw data storage methods
- + I can explain the difference between using unique identifiers within my lab, and using globally unique identifiers to name samples
+#####Declarative knowledge
+* I can list three places to get information about data standards for my field
+* I can list the pros and cons of various long-term raw data storage methods
+* I can explain the difference between using unique identifiers within my lab, and using globally unique identifiers to name samples
 
