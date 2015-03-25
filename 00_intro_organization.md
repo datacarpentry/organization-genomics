@@ -22,3 +22,6 @@ friend, sensible file names will make your analysis traversable by you and your 
 section for your next paper will be a breeze. Let's look a the best practices for documenting your genomics project. 
 
 Your future self will thank you.
+
+###References
+[A Quick Guide to Organizing Computational Biology Projects] (http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
