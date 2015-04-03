@@ -6,8 +6,7 @@
 * This exercise is also an easy way to start a discussion about the longevity of a given dataset.
 
 #### Objectives
-1. Given ![the labels handout](https://cloud.githubusercontent.com/assets/2990155/6986653/689377b4-da0d-11e4-9272-e7c45a4b465b.png), students mark (circle, highlight) terms they recognize. Depending on the students and their current
-level of education, some will have more familiarity with these terms than others.
+1. Given the following image as a printed handout, students mark (circle, highlight) terms they recognize. ![the labels handout](https://cloud.githubusercontent.com/assets/2990155/6986653/689377b4-da0d-11e4-9272-e7c45a4b465b.png) Depending on the students and their current level of education, some will have more familiarity with these terms than others.
   * Once recognized terms are marked, share / compare with your neighbors, report back on any new terms / unfamiliar terms.
 3. Have students share what term is used in their lab for any given term on this label hand out.
   * Discuss what would happen if you tried to merge datasets with different column headers (labels) for the same data.
