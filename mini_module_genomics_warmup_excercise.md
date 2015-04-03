@@ -20,7 +20,7 @@
 5. What kind of documentation do you need to keep track of genomics projects?
 6. Show how genomics (and other) data standards can help with data and metadata organization and documentation.
   * If you have an example, show how lack of standard use of terms created a problem for a specific research project.
-7. Next print and hand out the image below. It's a [Global Genome Biodiversity Network (GGBN)]([http://www.ggbn.org/) [list of the same terms](http://terms.tdwg.org/wiki/GGBN_Data_Standard), but now by "concept." These are the concept names for the general terms used in the above exercise. It is these terms that make data sharing across projects, and across time, more durable. They make the data more re-usable, and less prone to mis-use, mis-interpretation.
+7. Next print and hand out the image below. It's a [Global Genome Biodiversity Network (GGBN)]([http://www.ggbn.org/) [list of the same terms or labels as above](http://terms.tdwg.org/wiki/GGBN_Data_Standard), but now by "concept." These are the concept names for the general terms used in the above exercise. It is these terms that make data sharing across projects, and across time, more durable. They make the data more re-usable, and less prone to mis-use, mis-interpretation.
  ![GGBN terms by concept name](https://cloud.githubusercontent.com/assets/2990155/6986656/6e8052be-da0d-11e4-9718-72fce5bfe155.PNG)
  * Note I have found the Rosetta Stone a good analogy for students when explaining why the common language, a standard language, for best practices when sharing and publishing data.
 
