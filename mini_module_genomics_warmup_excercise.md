@@ -24,6 +24,9 @@
  ![GGBN terms by concept name](https://cloud.githubusercontent.com/assets/2990155/6986656/6e8052be-da0d-11e4-9718-72fce5bfe155.PNG)
  * Note I have found the Rosetta Stone a good analogy for students when explaining why the common language, a standard language, is crucial for best practices when sharing and publishing data.
 
+#### Time estimate for this exercise
+* Please give feedback here if you try this exercise. I would estimate maximum of 20 minutes. It's intended to start a conversation (an introduction), it's not a comprehensive lesson about data standards.
+
 #### Read More About It
 * [Global Genome Biodiversity Network](http://www.ggbn.org/)
 * [GGBN Data Standard](http://terms.tdwg.org/wiki/GGBN_Data_Standard) Quoted from their site:
