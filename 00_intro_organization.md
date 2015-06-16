@@ -6,10 +6,7 @@ it's never too late to start.
 
 You should approach your sequencing project in a very similar way to how you do a biological experiment, and ideally,
 begins with experimental design. We're going to assume that you've already designed a beautiful sequencing experiment 
-to address your biological question, collected appropriate samples, that you have enough statistical power. (If you 
-need help with experimental design see http://addalink.com). For all of those steps, collecting specimens, extracting DNA, 
-prepping your samples, you've likely kept a lab notebook that details how and why you did each step, but documentation 
-doesn't stop at the sequencer! 
+to address your biological question, collected appropriate samples, and that you have enough statistical power. For all of those steps, collecting specimens, extracting DNA, prepping your samples, you've likely kept a lab notebook that details how and why you did each step, but documentation doesn't stop at the sequencer! 
 
 Every computational analysis you do is going to spawn many files, and inevitability, you'll 
 want to run some of those analysis again. Genomics projects can quickly accumulates hundreds of files across tens of folders. 
@@ -19,7 +16,7 @@ you used.
 
 Luckily, recording your computational experiments is even easier than recording lab data. Copy/Paste will become your best
 friend, sensible file names will make your analysis traversable by you and your collaborators, and writing the methods 
-section for your next paper will be a breeze. Let's look a the best practices for documenting your genomics project. 
+section for your next paper will be a breeze. Let's look at the best practices for documenting your genomics project. 
 
 Your future self will thank you.
 
