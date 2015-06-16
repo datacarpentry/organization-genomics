@@ -7,7 +7,7 @@ We've compiled a list of common data issues, and some suggestions for Good, Bett
 
 ###Column Headers
 
-Your datasheets and metadata sheets should have column names that are meaningful both to you and to other people who may use your data. If you intend to import this data into R, Python or other program, avoid spaces and non-standard characters.
+Your datasheets and metadata sheets should have column names that are meaningful both to you and to other people who may use your data. If you intend to import this data into R, Python or other program (or you don't want to make life difficult for other researchers who might), avoid spaces and non-standard characters.
 
 #####Good
 
@@ -18,9 +18,11 @@ Name your columns something as short as possible while still being unique and de
 
 #####Best
 Use terms from *data standards* 
-You can use the Biocode Field Information Management System to generate datasheets with globally acccepted field names. Click on Tools to get started.
+You can use the Biocode Field Information Management System {>> linky? <<} to generate datasheets with globally acccepted field names. Click on Tools to get started.
 
 ###Unique Sample Names
+
+#####Good
 
 Each of your samples should have a unique identifier, and a set of standardized metadata. Avoid names that look like dates (Dec14), times (AM1245) and other things that Excel might auto-convert.
 
