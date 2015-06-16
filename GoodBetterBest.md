@@ -11,9 +11,10 @@ Your datasheets and metadata sheets should have column names that are meaningful
 
 #####Good
 
-Name your columns something as short as possible while still being unique and descriptive. Make column comments with an extended description of each column header and any abbreviations in the data sheet.
+If some meta-data takes the form of highlighting or other formatting, make new columns to house that information in a way that is compatible with the .csv file type. For instance, you may have highlighted the names of individuals from one population in blue, and the other in red. This is helpful for you to differentiate between populations, but that information can't be imported into R (or any other text based program). Instead, make a column called "Population" and note where each individual came from.
 
 #####Better
+Name your columns something as short as possible while still being unique and descriptive. Make column comments with an extended description of each column header and any abbreviations in the data sheet.
 
 #####Best
 Use terms from *data standards* 
@@ -23,11 +24,9 @@ You can use the Biocode Field Information Management System to generate datashee
 
 Each of your samples should have a unique identifier, and a set of standardized metadata. Avoid names that look like dates (Dec14), times (AM1245) and other things that Excel might auto-convert.
 
-#####Good
+#####Better
 
 Add a column to your dataset starting with MyLab1, MyLab2...MyLabN, so each sample gets a unique ID
-
-#####Better
 
 #####Best
 
