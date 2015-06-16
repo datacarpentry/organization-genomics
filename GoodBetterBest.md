@@ -18,7 +18,7 @@ Name your columns something as short as possible while still being unique and de
 
 #####Best
 Use terms from *data standards* 
-You can use the Biocode Field Information Management System {>> linky? <<} to generate datasheets with globally acccepted field names. Click on Tools to get started.
+You can use the <a href="http://biscicol.org/biocode-fims/"> Biocode Field Information Management System </a> to generate datasheets with globally acccepted field names. Click on Tools to get started.
 
 ###Unique Sample Names
 
@@ -32,7 +32,7 @@ Add a column to your dataset starting with MyLab1, MyLab2...MyLabN, so each samp
 
 #####Best
 
-Genomics Data Standards The Global Genome Biodiversity Network (GGBN) was formed in 2011 with the principal aim of making high-quality well-documented and vouchered collections that store DNA or tissue samples of biodiversity, discoverable for research through a networked community of biodiversity repositories. This is achieved through the GGBN Data Portal (http://data.ggbn.org), which links globally distributed databases and bridges the gap between biodiversity repositories, sequence databases and research results. Global Genome Biodiversity Network (GGBN): GGBN Data Standard Terms: http://terms.tdwg.org/wiki/GGBN_Data_Standard
+Genomics Data Standards The Global Genome Biodiversity Network (GGBN) was formed in 2011 with the principal aim of making high-quality well-documented and vouchered collections that store DNA or tissue samples of biodiversity, discoverable for research through a networked community of biodiversity repositories. This is achieved through the <a href="http://data.ggbn.org"> GGBN Data Portal</a>, which links globally distributed databases and bridges the gap between biodiversity repositories, sequence databases and research results.  Global Genome Biodiversity Network (GGBN): <a href="http://terms.tdwg.org/wiki/GGBN_Data_Standard">GGBN Data Standard Terms</a>
 
 ###Dates, times and temperatures
 
