@@ -48,4 +48,19 @@ Whatever the number of your date levels, ensure that every individual has every 
 
 #####Best
 
-Follow the good and better practices, and also: In your README, note important meta-meta-data that seems obvious now, but might be difficult to remember later. For example, whether you used 12 or 24 hour time, what temperature scale you used, and what your zero point means. If the data was collected across different time zones, be sure that the timezone has it's own column, and note in your meta-meta-data file whether you've standardized the time (i.e. Were your 5pm and 6pm measurements that were done in adjecent time zones done at the same physical time? or an hour apart?) Add an extended description of each column header and any abbreviations in the data sheet,
+Follow the good and better practices, and also: In your README, note important meta-meta-data that seems obvious now, but might be difficult to remember later. For example, whether you used 12 or 24 hour time, what temperature scale you used, and what your zero point means. If the data was collected across different time zones, be sure that the timezone has it's own column, and note in your meta-meta-data file whether you've standardized the time (i.e. Were your 5pm and 6pm measurements that were done in adjecent time zones done at the same physical time? or an hour apart?) Add an extended description of each column header and any abbreviations in the data sheet.
+
+###Remove spaces and punctuation
+Make all your downstream analysis easier by using computer friendly naming
+
+#####Good
+Never use spaces. When working on the command line, spaces in file names make everything exponentially more difficult. Replace all your spaces with under_scores or use CamelCase to seperate words in complex files names. Similarly, don't use special characters (.,;"*) in file names.
+
+#####Better
+Don't stop at file names, get rid of spaces and special characters inside of files too! If a column contains temperature data, remove any degree symbols or letters and just keep the numbers...just make sure your metadata includes the temperature scale.
+
+#####Best
+Use <a href="http://swcarpentry.github.io/sql-novice-survey/reference.html#atomic">atomic units</a> for all of your data, if the value needs a space or punctuation, it probably isn't an atomic unit, and can be seperated into two data columns.
+
+
+
