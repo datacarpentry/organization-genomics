@@ -95,6 +95,7 @@ From the nano screen, you should be able to use your cursor to navigate, type, a
    ```
 # 2015_07_30 
 ```
+<br>
    ```
 # Created sample directories for the Data Carpentry workshop
 ```
@@ -104,7 +105,7 @@ From the nano screen, you should be able to use your cursor to navigate, type, a
 
 
 **Questions**: 
-1. What is the default number of lines that tail displays?
+1. What is the default number of lines that tail displays?<br>
 2. What is the difference between '>' and '>>'
 
 
