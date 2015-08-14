@@ -19,38 +19,46 @@ Your future self will thank you.
 
 In this exercise we will setup a filesystem for the project we will be using over the next few days. We will also introduce you to some helpful shell commands/programs/tools:
 
-* mkdir
-* history
-* tail
-* |
-* nano
-* >>
+* ``mkdir``
+* ``history``
+* ``tail``
+* ``|``
+* ``nano``
+* ``>>``
 
 #### A. Create a file system for a project
 
 Inspired by the guide below, we will start by create a directory that we can use for the rest of the workshop:
 
-1. First, make sure that you are in your home directory,
-```
+First, make sure that you are in your home directory:
+```bash
 $ pwd
+/home/dcuser
+# Hopefully you got the above output '/home/dcuser' 
 ```
-this should give the result: '/home/dcuser'
+
 **Tip:** Remember, when we give a command, rather than copying and pasting, just type it out. Also the '$' indicates we are at the command prompt, do not include that in your command. 
-**Tip** If you were not in your home directory, the easiest way to get there is to enter the command *cd* - which always returns you to home. 
-2. Next, try making the following directories using the *mkdir* command
-```
-dc_workshop
-dc_workshop/docs
-dc_workshop/data
-dc_workshop/results
-```
-3. Verify that you have created the directories;
-```
+
+**Tip** If you were not in your home directory, the easiest way to get there is to enter the command ``cd`` which always returns you to home. 
+
+Next, try making the following directories using the ``mkdir`` command
+
+
+* dc_workshop
+* dc_workshop/docs
+* dc_workshop/data
+* dc_workshop/results
+
+
+Verify that you have created the directories;
+
+```bash 
 $ ls -R dc_workshop
 ```
+
 if you have created these directories, you should get the following output from that command:
 
-```
+```bash
 dc_workshop/:
 data  docs  results
 
@@ -65,32 +73,32 @@ dc_workshop/results:
 
 The *history* command is a convenient way to document the all the commands you have used while analyzing and manipulating your project. Let's document the work we have done to create these folders. 
 
-1. View the commands that you have used so far during this session using history:
-```
+1. View the commands that you have used so far during this session using ``history``:
+
+   ```bash
 $ history
 ```
 The history likely contains many more commands that you have used just for these projects. Let's view the last several commands so that focus on just what we need for the project. 
 2. View the last n lines of your history (where n = approximately the last few lines you think relevant - for our example we will use the last 7:
-```
+
+   ```bash
 $ history | tail -n7
 ```
-As you may remember from the shell lesson, the pipe '|' sends the output of history to the next program, in this case, tail. We have used the -n option to give the last 7 lines.
-3. Using your knowledge of the shell use the append redirect *'>>'* to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
-4. You may have noticed that your history may contain the *history* command itself. To remove this redundancy from our log, lets use the *nano* text editor to fix the file:
-```
-$ nano dc_workshop_log_
+As you may remember from the shell lesson, the pipe ``|`` sends the output of history to the next program, in this case, tail. We have used the -n option to give the last 7 lines.
+3. Using your knowledge of the shell use the append redirect ``>>`` to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
+4. You may have noticed that your history may contain the ``history`` command itself. To remove this redundancy from our log, lets use the ``nano`` text editor to fix the file:
+   ```bash
+$ nano dc_workshop_log
 ```
 From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines. 
 5. Add a dateline and comment to the line where you have created the directory e.g. 
 ```
 # 2015_07_30 
-```
-```
 # Created sample directories for the Data Carpentry workshop
 ```
 6. Next, remove any lines of the history that are not relevant. Just navigate to those lines and use your delete key. 
 7. Close nano by hitting 'Control' and the 'X' key at the same time; notice in nano this is abbreviated '\^X'; nano will ask if you want to save; hit 'Y' for yes. When prompted for the 'File Name to Write' we can hit 'Enter' to keep the same name and save. 
-8. Now that you have created the file, move the file to 'dc_workshop/docs'
+8. Now that you have created the file, move the file to 'dc_workshop/docs' using the ``mv`` command. 
 
 
 **Questions**: 
