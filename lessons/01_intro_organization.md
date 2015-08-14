@@ -91,7 +91,7 @@ As you may remember from the shell lesson, the pipe ``|`` sends the output of hi
 $ nano dc_workshop_log
 ```
 From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines. 
-5. Add a dateline and comment to the line where you have created the directory e.g. 
+5. Add a dateline and comment to the line where you have created the directory e.g. <br>
    ```
 # 2015_07_30 
 ```
@@ -104,7 +104,7 @@ From the nano screen, you should be able to use your cursor to navigate, type, a
 8. Now that you have created the file, move the file to 'dc_workshop/docs' using the ``mv`` command. 
 
 
-**Questions**: 
+**Questions**: <br>
 1. What is the default number of lines that tail displays?<br>
 2. What is the difference between '>' and '>>'
 
