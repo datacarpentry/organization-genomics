@@ -92,7 +92,7 @@ $ nano dc_workshop_log
 ```
 From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines. 
 5. Add a dateline and comment to the line where you have created the directory e.g. 
-```
+   ```
 # 2015_07_30 
 # Created sample directories for the Data Carpentry workshop
 ```
