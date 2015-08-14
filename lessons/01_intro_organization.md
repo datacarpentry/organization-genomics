@@ -94,6 +94,8 @@ From the nano screen, you should be able to use your cursor to navigate, type, a
 5. Add a dateline and comment to the line where you have created the directory e.g. 
    ```
 # 2015_07_30 
+```
+   ```
 # Created sample directories for the Data Carpentry workshop
 ```
 6. Next, remove any lines of the history that are not relevant. Just navigate to those lines and use your delete key. 
