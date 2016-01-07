@@ -1,3 +1,0 @@
-- pass 'leaving academia forever' test
-- knowing what kind of data you'll be dealing with
-- knowing what kinds of things you need to keep track of for your experiments, what do people in your field care about
