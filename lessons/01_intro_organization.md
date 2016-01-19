@@ -103,12 +103,63 @@ From the nano screen, you should be able to use your cursor to navigate, type, a
 7. Close nano by hitting 'Control' and the 'X' key at the same time; notice in nano this is abbreviated '\^X'; nano will ask if you want to save; hit 'Y' for yes. When prompted for the 'File Name to Write' we can hit 'Enter' to keep the same name and save. 
 8. Now that you have created the file, move the file to 'dc_workshop/docs' using the ``mv`` command. 
 
+#### C. Intro to Markdown
+
+As you start to build your notebook, there is an easy way to format these notes - [Markdown](https://guides.github.com/features/mastering-markdown/).
+
+Markdown is a simplified version of HTML, the code that is behind most webpages on the internet.
+
+One reason to markdown is that it is a simple way to create documents that anyone can access. You may be very use to using word processing programs like Microsoft Word. While these are very nice, they are not free and not everyone has access. Also, when we are doing work on the computer usually using Linux we would not be able to read these Microsoft documents. 
+
+To write something in Markdown, all you need to do is write text like you always do, but you will format it using some special symbols.
+**Using an editor**
+
+It helps to have an editor so that you can see what your markdown will look like when it is rendered (final version that people see). Suggestions for free software include:
+
+- [Maddown - Mac](http://macdown.uranusjr.com/)
+- [Markdown Pad - Windows](http://markdownpad.com/)
+
+**Markdown basics**
+
+See a really good guide at: https://help.github.com/articles/markdown-basics/
+Paragraphs
+
+Regular paragraphs are no different than typing on any text editor/word processor. Just type.
+
+**Adding Headings**
+Use the '#' key to make a line a heading (subtitle). For really big fonts use just one '#' the more '#'s' used, the smaller the subtitle. 
+
+# Example 1
+## Example 2
+### Example 3
+#### Example 4
+
+### Bolding and emphasis
+Surrounding a word or phrase with one set of asterisks (**) *makes it italic*. Using two sets **makes it bold**. 
+
+#### Lists 
+Lists can be
+* Unordered
+* Start with a single asterisk
+* Have one item per line.
+
+To make an ordered list:
+1. Start the list with one number, followed by a period
+2. On the next line, just use the next number. 
+
+
+#### Links and Images
+A link is properly written in markdown using a pair of square brackets '[]' followed by round parentheses '()'. The text of the link will go in the square brackets, and the actual URL will go in the parentheses: 
+
+[Link to Markdown Basics](https://help.github.com/articles/markdown-basics/)
+
+If you want an image, just follow the link text in the brackets with an exclamation mark '![ ]\( )'
+![Kitten image](kitten.jpg)
+
 
 **Questions**: <br>
 1. What is the default number of lines that tail displays?<br>
 2. What is the difference between '>' and '>>'
-
-
 
 
 ###References
