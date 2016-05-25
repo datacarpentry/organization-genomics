@@ -39,11 +39,11 @@ Inspired by the guide below, we will start by create a directory that we can use
 
 First, make sure that you are in your home directory:
 
-    ```bash
-    $ pwd
-    /home/dcuser
-    # Hopefully you got the above output '/home/dcuser' 
-    ```
+```bash
+$ pwd
+/home/dcuser
+# Hopefully you got the above output '/home/dcuser' 
+```
 
 **Tip:** Remember, when we give a command, rather than copying and pasting, just type it out. Also the '$' indicates we are at the command prompt, do not include that in your command. 
 
