@@ -1,4 +1,11 @@
-#Getting your project started
+---
+layout: lesson
+root: .
+title: Organizing Genomics Projects
+minutes: 5
+---
+
+##Getting your project started
 
 Project organization is one of the most important parts of a sequencing project, but is often overlooked in the excitement to get a first look at new data. While it's best to get yourself organized before you begin analysis,
 it's never too late to start.
@@ -26,11 +33,12 @@ In this exercise we will setup a filesystem for the project we will be using ove
 * ``nano``
 * ``>>``
 
-#### A. Create a file system for a project
+### A. Create a file system for a project
 
 Inspired by the guide below, we will start by create a directory that we can use for the rest of the workshop:
 
 First, make sure that you are in your home directory:
+
 ```bash
 $ pwd
 /home/dcuser
@@ -69,21 +77,20 @@ dc_workshop/docs:
 dc_workshop/results:
 ```
 
-#### B. Document your activity on the project
+### B. Document your activity on the project
 
 The *history* command is a convenient way to document the all the commands you have used while analyzing and manipulating your project. Let's document the work we have done to create these folders. 
 
 1. View the commands that you have used so far during this session using ``history``:
-
    ```bash
-$ history
-```
+    $ history
+    ```   
 The history likely contains many more commands that you have used just for these projects. Let's view the last several commands so that focus on just what we need for the project. 
 2. View the last n lines of your history (where n = approximately the last few lines you think relevant - for our example we will use the last 7:
 
-   ```bash
-$ history | tail -n7
-```
+    ```
+    $ history | tail -n7
+    ```
 As you may remember from the shell lesson, the pipe ``|`` sends the output of history to the next program, in this case, tail. We have used the -n option to give the last 7 lines.
 3. Using your knowledge of the shell use the append redirect ``>>`` to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
 4. You may have noticed that your history may contain the ``history`` command itself. To remove this redundancy from our log, lets use the ``nano`` text editor to fix the file:
@@ -91,19 +98,17 @@ As you may remember from the shell lesson, the pipe ``|`` sends the output of hi
 $ nano dc_workshop_log
 ```
 From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines. 
-5. Add a dateline and comment to the line where you have created the directory e.g. <br>
-   ```
-# 2015_07_30 
-```
-<br>
-   ```
-# Created sample directories for the Data Carpentry workshop
-```
+5. Add a dateline and comment to the line where you have created the directory e.g. 
+    
+    ```
+    # 2015_07_30 
+    # Created sample directories for the Data Carpentry workshop
+    ```
 6. Next, remove any lines of the history that are not relevant. Just navigate to those lines and use your delete key. 
 7. Close nano by hitting 'Control' and the 'X' key at the same time; notice in nano this is abbreviated '\^X'; nano will ask if you want to save; hit 'Y' for yes. When prompted for the 'File Name to Write' we can hit 'Enter' to keep the same name and save. 
 8. Now that you have created the file, move the file to 'dc_workshop/docs' using the ``mv`` command. 
 
-#### C. Intro to Markdown
+### C. Intro to Markdown
 
 As you start to build your notebook, there is an easy way to format these notes - [Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -155,7 +160,7 @@ A link is properly written in markdown using a pair of square brackets '[]' foll
 
 If you want an image, just follow the link text in the brackets with an exclamation mark '![ ]\( )'
 <br>
-![Kitten image](kittens.jpg)
+![Kitten image](./img/kittens.jpg)
 
 
 **Questions**: <br>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+      <title>Organizing Genomics Projects</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+<link href="./css/bootstrap/bootstrap.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="./css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="./css/swc.css" />
+<link rel="stylesheet" type="text/css" href="./css/swc-bootstrap.css" />
+<meta charset="UTF-8" />
+<meta http-equiv="last-modified" content="" />
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="./css/lesson.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+  <a href="http://datacarpentry.org" title="Data Carpentry">
+    <img alt="Data Carpentry banner" src="./img/DC1_logo_small.png" height="50px" />
+  </a>
+</div>
+
+
+      <div class="row-fluid">
+        <div class="span10 offset1">
+	  <!-- start content -->
+          
+          <h1>Organizing Genomics Projects</h1>
+          
+          <h2>Getting your project started</h2>
+
+<p>Project organization is one of the most important parts of a sequencing project, but is often overlooked in the excitement to get a first look at new data. While it&#39;s best to get yourself organized before you begin analysis,
+it&#39;s never too late to start.</p>
+
+<p>You should approach your sequencing project in a very similar way to how you do a biological experiment, and ideally, begins with experimental design. We&#39;re going to assume that you&#39;ve already designed a beautiful sequencing experiment 
+to address your biological question, collected appropriate samples, and that you have enough statistical power. For all of those steps, collecting specimens, extracting DNA, prepping your samples, you&#39;ve likely kept a lab notebook that details how and why you did each step, but documentation doesn&#39;t stop at the sequencer! </p>
+
+<p>Every computational analysis you do is going to spawn many files, and inevitability, you&#39;ll 
+want to run some of those analysis again. Genomics projects can quickly accumulates hundreds of files across tens of folders. Do you remember what PCR conditions you used to create your sequencing library? Probably not. Similarly, you probably won&#39;t 
+remember whether your best alignment results were in Analysis1, AnalysisRedone, or AnalysisRedone2; or which quality cutoff 
+you used.</p>
+
+<p>Luckily, recording your computational experiments is even easier than recording lab data. Copy/Paste will become your best friend, sensible file names will make your analysis traversable by you and your collaborators, and writing the methods section for your next paper will be a breeze. Let&#39;s look at the best practices for documenting your genomics project. </p>
+
+<p>Your future self will thank you.</p>
+
+<h2>Exercise</h2>
+
+<p>In this exercise we will setup a filesystem for the project we will be using over the next few days. We will also introduce you to some helpful shell commands/programs/tools:</p>
+
+<ul>
+<li><code>mkdir</code></li>
+<li><code>history</code></li>
+<li><code>tail</code></li>
+<li><code>|</code></li>
+<li><code>nano</code></li>
+<li><code>&gt;&gt;</code></li>
+</ul>
+
+<h3>A. Create a file system for a project</h3>
+
+<p>Inspired by the guide below, we will start by create a directory that we can use for the rest of the workshop:</p>
+
+<p>First, make sure that you are in your home directory:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">```bash
+$ pwd
+/home/dcuser
+# Hopefully you got the above output '/home/dcuser' 
+```
+</code></pre></div>
+<p><strong>Tip:</strong> Remember, when we give a command, rather than copying and pasting, just type it out. Also the &#39;$&#39; indicates we are at the command prompt, do not include that in your command. </p>
+
+<p><strong>Tip</strong> If you were not in your home directory, the easiest way to get there is to enter the command <code>cd</code> which always returns you to home. </p>
+
+<p>Next, try making the following directories using the <code>mkdir</code> command</p>
+
+<ul>
+<li>dc_workshop</li>
+<li>dc_workshop/docs</li>
+<li>dc_workshop/data</li>
+<li>dc_workshop/results</li>
+</ul>
+
+<p>Verify that you have created the directories;</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>ls -R dc_workshop
+</code></pre></div>
+<p>if you have created these directories, you should get the following output from that command:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">dc_workshop/:
+data  docs  results
+
+dc_workshop/data:
+
+dc_workshop/docs:
+
+dc_workshop/results:
+</code></pre></div>
+<h3>B. Document your activity on the project</h3>
+
+<p>The <em>history</em> command is a convenient way to document the all the commands you have used while analyzing and manipulating your project. Let&#39;s document the work we have done to create these folders. </p>
+
+<ol>
+<li>View the commands that you have used so far during this session using <code>history</code>:
+<code>bash
+$ history
+</code><br>
+The history likely contains many more commands that you have used just for these projects. Let&#39;s view the last several commands so that focus on just what we need for the project. </li>
+<li><p>View the last n lines of your history (where n = approximately the last few lines you think relevant - for our example we will use the last 7:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">$ history | tail -n7
+</code></pre></div>
+<p>As you may remember from the shell lesson, the pipe <code>|</code> sends the output of history to the next program, in this case, tail. We have used the -n option to give the last 7 lines.</p></li>
+<li><p>Using your knowledge of the shell use the append redirect <code>&gt;&gt;</code> to create a file called <strong>dc<em>workshop</em>log<em>XXXX</em>XX_XX.txt</strong> (Use the four-digit year, two-digit month, and two digit day, e.g. dc<em>workshop</em>log<em>2015</em>07_30.txt)</p></li>
+<li><p>You may have noticed that your history may contain the <code>history</code> command itself. To remove this redundancy from our log, lets use the <code>nano</code> text editor to fix the file:
+<code>bash
+$ nano dc_workshop_log
+</code>
+From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines. </p></li>
+<li><p>Add a dateline and comment to the line where you have created the directory e.g. </p>
+<div class="highlight"><pre><code class="language-" data-lang=""># 2015_07_30 
+# Created sample directories for the Data Carpentry workshop
+</code></pre></div></li>
+<li><p>Next, remove any lines of the history that are not relevant. Just navigate to those lines and use your delete key. </p></li>
+<li><p>Close nano by hitting &#39;Control&#39; and the &#39;X&#39; key at the same time; notice in nano this is abbreviated &#39;^X&#39;; nano will ask if you want to save; hit &#39;Y&#39; for yes. When prompted for the &#39;File Name to Write&#39; we can hit &#39;Enter&#39; to keep the same name and save. </p></li>
+<li><p>Now that you have created the file, move the file to &#39;dc_workshop/docs&#39; using the <code>mv</code> command. </p></li>
+</ol>
+
+<h3>C. Intro to Markdown</h3>
+
+<p>As you start to build your notebook, there is an easy way to format these notes - <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>.</p>
+
+<p>Markdown is a simplified version of HTML, the code that is behind most webpages on the internet.</p>
+
+<p>One reason to markdown is that it is a simple way to create documents that anyone can access. You may be very use to using word processing programs like Microsoft Word. While these are very nice, they are not free and not everyone has access. Also, when we are doing work on the computer usually using Linux we would not be able to read these Microsoft documents. </p>
+
+<p>To write something in Markdown, all you need to do is write text like you always do, but you will format it using some special symbols.
+<strong>Using an editor</strong></p>
+
+<p>It helps to have an editor so that you can see what your markdown will look like when it is rendered (final version that people see). Suggestions for free software include:</p>
+
+<ul>
+<li><a href="http://macdown.uranusjr.com/">Maddown - Mac</a></li>
+<li><a href="http://markdownpad.com/">Markdown Pad - Windows</a></li>
+</ul>
+
+<p><strong>Markdown basics</strong></p>
+
+<p>See a really good guide at: https://help.github.com/articles/markdown-basics/
+Paragraphs</p>
+
+<p>Regular paragraphs are no different than typing on any text editor/word processor. Just type.</p>
+
+<p><strong>Adding Headings</strong>
+Use the &#39;#&#39; key to make a line a heading (subtitle). For really big fonts use just one &#39;#&#39; the more &#39;#&#39;s&#39; used, the smaller the subtitle. </p>
+
+<h1>Example 1</h1>
+
+<h2>Example 2</h2>
+
+<h3>Example 3</h3>
+
+<h4>Example 4</h4>
+
+<h3>Bolding and emphasis</h3>
+
+<p>Surrounding a word or phrase with one set of asterisks (<strong>) <em>makes it italic</em>. Using two sets **makes it bold</strong>. </p>
+
+<h4>Lists</h4>
+
+<p>Lists can be
+* Unordered
+* Start with a single asterisk
+* Have one item per line.</p>
+
+<p>To make an ordered list:
+1. Start the list with one number, followed by a period
+2. On the next line, just use the next number. </p>
+
+<h4>Links and Images</h4>
+
+<p>A link is properly written in markdown using a pair of square brackets &#39;[]&#39; followed by round parentheses &#39;()&#39;. The text of the link will go in the square brackets, and the actual URL will go in the parentheses: </p>
+
+<p><a href="https://help.github.com/articles/markdown-basics/">Link to Markdown Basics</a></p>
+
+<p>If you want an image, just follow the link text in the brackets with an exclamation mark &#39;![ ]( )&#39;
+<br>
+<img src="./img/kittens.jpg" alt="Kitten image"></p>
+
+<p><strong>Questions</strong>: <br>
+1. What is the default number of lines that tail displays?<br>
+2. What is the difference between &#39;&gt;&#39; and &#39;&gt;&gt;&#39;</p>
+
+<h3>References</h3>
+
+<p><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">A Quick Guide to Organizing Computational Biology Projects</a></p>
+
+	  <!-- end content -->
+	</div>
+      </div>
+
+      <div class="footer">
+  <a class="label swc-blue-bg" href="">Facebook</a>
+  <a class="label swc-blue-bg" href="">Google+</a>
+  <a class="label swc-blue-bg" href="">Twitter</a>
+  <a class="label swc-blue-bg" href="">GitHub</a>
+  <a class="label swc-blue-bg" href="./LICENSE.html">License</a>
+  <a class="bugreport label swc-blue-bg" href="mailto:?subject=bug%20in%20index.md">Bug Report</a>
+</div>
+
+    </div>
+    <!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./js/jquery-1.9.1.min.js"></script>
+<script src="./js/bootstrap/bootstrap.min.js"></script>
+
+  </body>
+</html>
