@@ -38,7 +38,7 @@ Before we go any further here are some important questions to consider. If you a
 
 The first step in sending your sample for sequencing will be to complete a form documenting the metadata for the facility. Take a look at the following submission spreadsheet. 
 
-[Sample submission sheet](./sample_submission.txt)*<br>
+[Sample submission sheet](./sample_submission.txt)*<br> **FIXLINK**
 > *Download the file using right-click (PC)/command-click (Mac). This is a tab-delimited text file; try opening it with Excel or another spreadsheet program. 
 
 ### **Questions**
@@ -53,8 +53,8 @@ The first step in sending your sample for sequencing will be to complete a form 
 
 When the data come back from the facility, you will receive some documentation (metadata) as well as the sequence files themselves. Download and examine the following file - here provided both as an excel and a text file:
 
-- [Sequencing results - excel](http://de.iplantcollaborative.org/dl/d/94749C20-0DA6-45A6-8CA0-11D6A7C75E78/sequencing_results_metadata.xls)
-- [Sequencing results - text](./sequencing_results_metadata.txt)
+- [Sequencing results - excel](http://de.iplantcollaborative.org/dl/d/94749C20-0DA6-45A6-8CA0-11D6A7C75E78/sequencing_results_metadata.xls) **FIXLINK**
+- [Sequencing results - text](./sequencing_results_metadata.txt) **FIXLINK**
 
 ### **Questions**
 
