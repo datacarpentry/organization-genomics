@@ -128,6 +128,25 @@ or encourage others to do so.
 The maintainers are community volunteers,
 and have final say over what gets merged into the lesson.
 
+## Issues Labels
+What issue lables in this repository mean? Think if you can asign one of the below labels to your issue.
+This will help maintainers to decide how to act and should result in quicker response to the issues.
+If you don't assign the label to an issue it will be assigned by the maintainers.
+
+- **duplicate**  means there is other issue reporting same problem
+- **enhancement** improvement to the existing content
+- **help wanted** maintainers invite contributors to tackle this issue
+- **invalid** is not considered an issue by the maintainers
+- **missing content** e.g. missing learning objectives and key points
+- **non-working example**
+- **non-working exercise**
+- **question** is something to discuss with maintainers
+- **quickfix** small thing e.g. typos and broken links
+- **setup instructions**
+- **structural** e.g. content is in the wrong order
+- **unclear content** e.g. a concept is presented, but it’s not clear
+- **wontfix** this issue will not be fixed
+
 ## Other Resources
 
 General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
