@@ -21,17 +21,11 @@ This dataset was selected for our exercise on NGS Data Carpentry for several rea
 
 # Introduction to the dataset  
 
-Microbes are ideal organisms for exploring 'Long-term Evolution Experiments' (LTEEs) - thousands of generations can be generated and stored in a way that would be virtually
-impossible for more complex eukaryotic systems. In [Blount et al 2012](Lenski_paper.pdf), 12 populations of *Escherichia coli* were propagated for more than 40,000 generations in a glucose-limited
-minimal medium. This medium was supplemented with citrate which *E. coli* cannot metabolize in the aerobic conditions of the experiment. Sequencing of the populations at regular time points reveals
-that spontaneous citrate-using mutants (Cit+) appeared in a population of *E.coli* (designated Ara-3) at around 31,000 generations. It should be noted that spontaneous Cit+ mutants are extraordinarily
-rare - inability to metabolize citrate is one of the defining characters of the *E. coli* species. Eventually, Cit+ mutants became the dominant population as the experimental growth medium contained a
-high concentration of citrate relative to glucose.  
+Microbes are ideal organisms for exploring 'Long-term Evolution Experiments' (LTEEs) - thousands of generations can be generated and stored in a way that would be virtually impossible for more complex eukaryotic systems. In [Blount et al 2012](https://www.ncbi.nlm.nih.gov/pubmed/22992527), 12 populations of *Escherichia coli* were propagated for more than 40,000 generations in a glucose-limited minimal medium. This medium was supplemented with citrate which *E. coli* cannot metabolize in the aerobic conditions of the experiment. Sequencing of the populations at regular time points reveals that spontaneous citrate-using mutants (Cit+) appeared in a population of *E.coli* (designated Ara-3) at around 31,000 generations. It should be noted that spontaneous Cit+ mutants are extraordinarily rare - inability to metabolize citrate is one of the defining characters of the *E. coli* species. Eventually, Cit+ mutants became the dominant population as the experimental growth medium contained a high concentration of citrate relative to glucose.  
 
 Strains from generation 0 to generation 40,000 were sequenced, including ones that were both Cit+ and Cit- after generation 31,000.  
 
-For the purposes of this workshop we're going to be working with 6 of the sequence reads from this experiment. We also made up genome sizes for each of the strains, to look at the relationship between
-Cit status and genome size.  **The genome sizes are not real data!!**  
+For the purposes of this workshop we're going to be working with 6 of the sequence reads from this experiment. We also made up genome sizes for each of the strains, to look at the relationship between Cit status and genome size.  **The genome sizes are not real data!!**  
 
 
 | SRA Run Number | Clone | Generation | Cit | GenomeSize |  
@@ -44,8 +38,7 @@ Cit status and genome size.  **The genome sizes are not real data!!**
 | SRR098027 | CZB199 | 33,000 | Cit- | 4.59 |  
 
 
-We want to be able to look at the genome size to see if there is a difference between genome size and the Cit status of the strain. We also want to analyze the sequences to figure out what changes 
-occurred in genomes to make the strains Cit+. Ultimately, we will answer the questions:  
+We want to be able to look at the genome size to see if there is a difference between genome size and the Cit status of the strain. We also want to analyze the sequences to figure out what changes occurred in genomes to make the strains Cit+. Ultimately, we will answer the questions:  
 
 - What is the distribution of genome sizes for all the strains?  
 - Is there a relationship between genome size and Cit status?  
@@ -56,6 +49,6 @@ occurred in genomes to make the strains Cit+. Ultimately, we will answer the que
 ## References  
 
 Blount, Z.D., Barrick, J.E., Davidson, C.J., Lenski, R.E.
-Genomic analysis of a key innovation in an experimental Escherichia coli population (2012) Nature, 489 (7417), pp. 513-518.  
-[Paper](Lenski_paper.pdf), [Supplemental materials](Lenski-s1.pdf)  
+Genomic analysis of a key innovation in an experimental Escherichia coli population (2012) Nature, 489 (7417), pp. 513-518.
+[Paper](https://www.ncbi.nlm.nih.gov/pubmed/22992527), [Supplemental materials](https://www.nature.com/nature/journal/v489/n7417/full/nature11514.html#supplementary-information)  
 Data on NCBI SRA: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)
