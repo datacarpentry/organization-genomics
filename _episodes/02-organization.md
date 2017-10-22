@@ -12,33 +12,31 @@ keypoints:
 
 # Getting your project started
 
-Project organization is one of the most important parts of a sequencing project, but is often overlooked in the
-excitement to get a first look at new data. While it's best to get yourself organized before you begin analysis,
-it's never too late to start.  
+Project organization is one of the most important parts of a sequencing project, and yet is often overlooked amidst the
+excitement of getting a first look at new data. Of course, while it's best to get yourself organized before you even begin your analyses,
+it's never too late to start, either.
 
-You should approach your sequencing project in a very similar way to how you do a biological experiment, and 
-ideally, begins with experimental design. We're going to assume that you've already designed a beautiful 
+You should approach your sequencing project in a very similar way to how you do a biological experiment, ideally starting out with some well-thought-out experimental design. For the purposes of this lesson, we're going to assume that you've already designed a beautiful 
 sequencing experiment to address your biological question, collected appropriate samples, and that you have 
-enough statistical power. For all of those steps, collecting specimens, extracting DNA, prepping your samples,
-you've likely kept a lab notebook that details how and why you did each step, but documentation doesn't stop at 
+enough statistical power. For all of those steps -- collecting specimens, extracting DNA, prepping your samples --
+you've likely kept a lab notebook that details how and why you did each step. However, the process of documentation doesn't stop at 
 the sequencer!  
 
-Every computational analysis you do is going to spawn many files, and inevitability, you'll 
-want to run some of those analysis again. Genomics projects can quickly accumulates hundreds of files across 
-tens of folders. Do you remember what PCR conditions you used to create your sequencing library? Probably not.
-Similarly, you probably won't remember whether your best alignment results were in Analysis1, AnalysisRedone, 
-or AnalysisRedone2; or which quality cutoff you used.  
+Genomics projects can quickly accumulate hundreds of files across tens of folders. 
+Every computational analysis you perform over the course of your project is going to spawn many files, which can especially become a problem when you'll inevitably want to run some of those analyses again. 
+For instance, you might have made significant headway into your project, but then have to remember the PCR conditions you used to create your sequencing library months prior. 
+Other questions might arise along the way: what were your best alignment results? 
+Which folder were they in: Analysis1, AnalysisRedone, or AnalysisRedone2? 
+Which quality cutoff did you use?
+What version of a given program did you implement your analysis in?
 
-Luckily, recording your computational experiments is even easier than recording lab data. Copy/Paste will become
-your best friend, sensible file names will make your analysis traversable by you and your collaborators, and 
-writing the methods section for your next paper will be a breeze. Let's look at the best practices for 
-documenting your genomics project.   
+Good documentation is key to avoiding this issue, and luckily enough, recording your computational experiments is even easier than recording lab data. 
+Copy/Paste will quickly become your best friend; sensible file names will make your analysis easily traversable by you and your collaborators, and writing the methods section for your next paper will be a breeze. 
+Remember that in any given project of yours, it's worthwhile to consider a future version of yourself as an entirely separate collaborator. The better your documentation is, the more this 'collaborator' will feel indebted to you!
 
-Your future self will thank you.  
-
-
-In this exercise we will setup a filesystem for the project we will be using over the next few days. We will 
-also introduce you to some helpful shell commands, programs and tools, including: 
+With this in mind, let's have a look at the best practices for documenting your genomics project. 
+In this exercise we will set up a filesystem for the project we will be using over the next few days. 
+We will also look at some very helpful shell commands, programs, and tools, including: 
 * ``mkdir``  
 * ``history``  
 * ``tail``  
@@ -46,22 +44,26 @@ also introduce you to some helpful shell commands, programs and tools, including
 * ``nano``  
 * ``>>``  
 
-We will start by creating a directory that we can use for the rest of the workshop. First make sure you're in
-your home directory, then type:  
+Let's start by creating a directory that we can use for the rest of the workshop. First, head over to
+your home directory (designated in bash by a `~`) by using the `cd` command.
+
+    $ cd ~
+
+then type:  
 
     $ pwd
 
-Hopefully you got the output: 
+To be sure. Hopefully you got the output: 
 
      /home/dcuser  
 
 > ## Tip  
-> When we give a command, rather than copying and pasting, type it into your shell window. Also, the `$`
-indicates that we are at the command prompt, don't include that in your command.
+> When we give a command, rather than copying and pasting, type it into your shell window. The `$`
+indicates that we are at the command prompt, so don't include that in your command.
 {: .callout}
 
 > ## Tip  
-> If you aren't in your home directory, the easiest way to get there is to enter the command `cd`, which
+> If you aren't in your home directory, the easiest way to get there is to enter the command `cd` on its own, which
 > always returns you to home.  
 {: .callout}
 
@@ -103,27 +105,27 @@ View the commands that you have used so far during this session using ``history`
 The history likely contains many more commands that you have used just for these projects. Let's view the last
 several commands so that focus on just what we need for the project.   
 
-View the last n lines of your history (where n = approximately the last few lines you think relevant - for our example we will use the last 7:  
+View the last n lines of your history (where n = approximately the last few lines you think are relevant). For our example. we will use the last 7:  
 
 ```bash    
 $ history | tail -n 7
 ```
 
-As you may remember from the shell lesson, the pipe `|` sends the output of history to the next program, in
-this case `tail`. We have used the `-n` option to give the last 7 lines.  
+As you may remember from the shell lesson, the pipe `|` sends the output of history to the next program, which in
+this case is `tail`. We have used the `-n` option to give the last 7 lines.  
 
 Using your knowledge of the shell use the append redirect `>>` to create a file called
 **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g.
-dc_workshop_log_2015_07_30.txt)  
+`dc_workshop_log_2015_07_30.txt`)  
 
 You may have noticed that your history may contain the `history` command itself. To remove this redundancy
-from our log, lets use the `nano` text editor to fix the file:  
+from our log, let's use the `nano` text editor to fix the file:  
 
 ```bash
     $ nano dc_workshop_log
 ```
 
-From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines.   
+From the `nano` screen, you should be able to use your cursor to navigate, type, and delete any redundant lines.   
 
 Add a dateline and comment to the line where you have created the directory, for example:   
 
@@ -135,15 +137,15 @@ Add a dateline and comment to the line where you have created the directory, for
 Next, remove any lines of the history that are not relevant by navigating to those lines and using your 
 delete key.   
 
-Close nano by hitting 'Control' and the 'X' key at the same time; notice in nano this is abbreviated '\^X'.
-Nano will ask if you want to save. Type 'Y' for yes. When prompted for the 'File Name to Write', hit 'Enter'
-to keep the same name and save.   
+Close `nano` by hitting 'Control' and the 'X' key at the same time; notice in `nano` this is abbreviated `^X`.
+`nano` will ask if you want to save. Type 'Y' for yes. When prompted for the 'File Name to Write', hit 'Enter'
+to keep the same name and save.
 
 Now that you have created the file, move the file to 'dc_workshop/docs' using the `mv` command.  
 
 
 > ## Questions  
-> 1. What is the default number of lines that tail displays?  
+> 1. What is the default number of lines that `tail` displays?  
 > 2. What is the difference between `>` and `>>`?
 {: .challenge}
 
