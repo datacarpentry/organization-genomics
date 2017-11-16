@@ -25,7 +25,7 @@ In this lesson you will learn:
 >
 > #### Prerequisites
 >
-> This lesson requires . . .
+> This lesson requires a spreadsheet program, such as Excel or OpenOffice, and a web browser.
 > <br>To most effectively use these materials, please make sure to install
 > everything *before* working through this lesson.
 {: .prereq}
