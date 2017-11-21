@@ -74,8 +74,9 @@ Independent of the type of data you're collecting, there are standard ways to en
 
 The cardinal rules of using spreadsheet programs for data:
 
-- Put all your variables in columns - the thing that vary between samples, like ‘strain name’ or ‘library preparation method’.
 - Put each observation or sample in its own row.
+- Put all your variables in columns - the thing that vary between samples, like ‘strain’ or ‘DNA-concentration’.
+- Have column names be explanatory, but not have spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
 - Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
 you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
 K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
