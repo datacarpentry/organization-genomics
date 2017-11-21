@@ -101,6 +101,6 @@ Data organization at this point of your experiment will help facilitate your ana
 
 Fear not! If you have already started your project, and it's not set up this way, there are still opportunities to make updates. One of the biggest challenges is tabular data that isn't formatted so computers can use it, or has inconsistencies that make it hard to analyze.
 
-There are guidelines on how to structure your data, outlined in our [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
+More practice on how to structure data is outlined in our [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
 
 Tools like [OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) can help you clean your data.
