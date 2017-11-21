@@ -1,14 +1,7 @@
 ---
-title: "Introduction"
-teaching: 0
-exercises: 0
-questions:
-- "Key question"
-objectives:
-- "Describe the features of the dataset used in this workshop."   
-- "Describe the experiment done with the dataset including its objectives."  
-keypoints:
-- "First key point."
+layout: page
+title: Data
+permalink: /data/
 ---
 
 # Features of the dataset  
