@@ -28,9 +28,6 @@ In this lesson you will learn:
 > their own computers to insure the proper setup of tools for an efficient
 > workflow. <br>**These lessons assume no prior knowledge of the skills or tools.**
 >
-> To get started, follow the directions in the "[Setup](setup/)" tab to
-> download data to your computer and follow any installation instructions.
->
 > #### Prerequisites
 >
 > This lesson requires a spreadsheet program, such as Excel or OpenOffice, and a web browser.
