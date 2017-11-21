@@ -1,7 +1,7 @@
 ---
 title: "Data Tidiness"
 teaching: 20
-exercises: 0
+exercises: 10
 questions:
 - "How to collect and structure the data about your sequencing data"
 objectives:
@@ -22,6 +22,7 @@ When we think about the data for a sequencing project, we often start by thinkin
 >
 > What kinds of data and information have you generated before you send your DNA/RNA off for sequencing?
 >
+> > ## Solution
 > > Types of files and information you have generated:  
 > > - spreadsheet or tabular data with the data from your experiment and whatever you were measuring for your study
 > > - lab notebook notes about how you conducted those experiments
@@ -46,7 +47,7 @@ other later. Using dates also helps create unique identifiers, because even
 if you process the same sample twice, you don't usually do it on the same
 day, or if you do, you're aware of it and give them names like A and B.
 
-> #### Unique identifiers
+> ## Unique identifiers
 > Unique identifiers are a unique name for a sample or set of sequencing data.
 > They are names for that data that only exist for that data. Having these
 > unique names makes them much easier to track later.
@@ -58,7 +59,7 @@ Data about the experiment is usually collected in spreadsheets, like Excel.
 
 What type of data to collect depends on your experiment and there are often guidelines from metadata standards.
 
-> #### Metadata standards
+> ## Metadata standards
 > Many fields have particular ways that they structure their metadata so it's
 consistent and can be used across the field.
 >
@@ -91,6 +92,7 @@ analysis you want to do, you may even separate the genus and species names into 
 >
 > ![Messy spreadsheet]((../fig/2_datasheet_example.jpg))
 >
+> > ## Solution
 > > A full set of types of issues with spreadsheet data is [here](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found.
 > >
 > {: .solution}
