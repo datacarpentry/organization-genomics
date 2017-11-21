@@ -9,7 +9,7 @@ objectives:
 - "Understand the importance of metadata and potential metadata standards"
 - "Explore common formatting challenges in spreadsheet data"
 keypoints:
-- "Metadata is key for you and others to be able to work your data"
+- "Metadata is key for you and others to be able to work with your data"
 - "Tabular data needs to be structured to be able to work with it effectively"
 ---
 
@@ -70,13 +70,16 @@ consistent and can be used across the field.
 
 ### Structuring data in spreadsheets
 
-Independent of the what type of data you're collecting there are standard ways to enter that data into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it, so to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
+Independent of the type of data you're collecting, there are standard ways to enter that data into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it, so to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
 
 The cardinal rules of using spreadsheet programs for data:
 
-- Put all your variables in columns - the thing you’re measuring, like ‘weight’ or ‘temperature’.
-- Put each observation in its own row.
-- Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way you’ll want to be able to use or sort that data.
+- Put all your variables in columns - the thing that vary between samples, like ‘strain name’ or ‘library preparation method’.
+- Put each observation or sample in its own row.
+- Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
+you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
+K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
+analysis you want to do, you may even separate the genus and species names into distinct columns.
 - Leave the raw data raw - don’t change it!
 - Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
 
