@@ -1,17 +1,22 @@
 ---
 title: "Examining Data on the NCBI SRA Database"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 10
 questions:
-- "Key question"
+- "How to work with public data in the NCBI SRA"
 objectives:
-- "First objective."  
+- "Be aware that public genomic data is available"
+- "Understand how to access and download this data"  
 keypoints:
-- "First key point."
+- ""
 ---
 
+In our experiments we're usually generating our own genomic data, but many types of analyses use reference data or you may want to use it to compare your results or annotate your data with publicly available data. You may also want to do a full project or set of analyses using publicly available data. This data is a great, and essential, resource for genomic data analysis.
+
+There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive are the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) and [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/ena). In this lesson we're working with the NCBI database, but the general process is the same for any database.
+
 # Accessing the original archived data
-The sequencing dataset was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra), which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Lenski paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. The link from the Lenski paper is: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
+The [sequencing dataset adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Lenski paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. The link from the Lenski paper is: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
@@ -36,7 +41,7 @@ Using your choice of spreadsheet program open the **SraRunTable.txt** file. If p
 
 > ## Discussion  
 > Discuss with the person next to you:
-> 
+>
 > 1. What strain of *E. coli* was used in this experiment?
 > 2. What was the sequencing platform used for this experiment?
 > 3. What samples in the experiment contain
