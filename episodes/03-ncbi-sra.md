@@ -8,7 +8,7 @@ objectives:
 - "Be aware that public genomic data is available"
 - "Understand how to access and download this data"  
 keypoints:
-- ""
+- "Public data repositories are a great source of genomic data."
 ---
 
 In our experiments we're usually generating our own genomic data, but many types of analyses use reference data or you may want to use it to compare your results or annotate your data with publicly available data. You may also want to do a full project or set of analyses using publicly available data. This data is a great, and essential, resource for genomic data analysis.
