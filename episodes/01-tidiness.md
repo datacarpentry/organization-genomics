@@ -85,12 +85,11 @@ analysis you want to do, you may even separate the genus and species names into 
 - Leave the raw data raw - don’t change it!
 - Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
 
-![Messy spreadsheet]((../fig/2_datasheet_example.jpg))
+![Messy spreadsheet](../fig/2_datasheet_example.jpg)
 
 > ## Exercise
-> This is some potential spreadsheet data for an experiment. With the person next to you, for about 2 minutes, discuss some of the problems with this spreadsheet data.
+> This is some potential spreadsheet data for an experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above.
 >
-> ![Messy spreadsheet]((../fig/2_datasheet_example.jpg))
 >
 > > ## Solution
 > > A full set of types of issues with spreadsheet data is [here](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found.
