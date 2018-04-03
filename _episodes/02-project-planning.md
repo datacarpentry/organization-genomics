@@ -100,8 +100,17 @@ be able to get to a solution on instinct alone - taking your time, using Google,
 valid ways of solving your problems. As you complete the lessons you'll be able to use all of those methods more
 efficiently.  
 
-# Where to go from here?
+# 
 
-More reading about core competencies -
 
-L. Welch, F. Lewitter, R. Schwartz, C. Brooksbank, P. Radivojac, B. Gaeta and M. Schneider, '[Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3945096/)', PLoS Comput Biol, vol. 10, no. 3, p. e1003496, 2014.
+
+
+
+> ## Where to go from here?
+>
+> More reading about core competencies 
+>
+>L. Welch, F. Lewitter, R. Schwartz, C. Brooksbank, P. Radivojac, B. Gaeta and M. Schneider, '[Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3945096/)', PLoS Comput Biol, vol. 10, no. 3, p. e1003496, 2014.
+>
+> {: .source}
+{: .callout}
