@@ -88,13 +88,16 @@ analysis you want to do, you may even separate the genus and species names into 
 [![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/OlgaBotvinnik_czbiohub_SampleSheet_Example_messy.csv?raw=true)
 
 > ## Exercise
-> This is some potential spreadsheet data for an experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above.
+> This is some potential spreadsheet data for an experiment being submitted for sequencing. The program [bcl2fastq](https://support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq_letterbooklet_15038058brpmi.pdf) requires this spreadsheet to use as input to demultiplex the sequencing data into separate files, one per sample. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above.
 >
 >
 > > ## Solution
-> > A full set of types of issues with spreadsheet data is [here](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. Here is a "clean" version of the same spreadsheet:
+> > A full set of types of issues with spreadsheet data is [here](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. The main problem is there are characters in the ids that aren't allowed, e.g. ",", ".", "-", "&" or spaces. Here is a "clean" version of the same spreadsheet:
 
 [Cleaned spreadsheet](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/OlgaBotvinnik_czbiohub_SampleSheet_Example_clean.csv?raw=true)
+
+File and info provided by [Dr. Olga Botvinnik](https://github.com/olgabot) at [CZ Biohub](https://github.com/czbiohub).
+
 > >
 > {: .solution}
 {: .challenge}
