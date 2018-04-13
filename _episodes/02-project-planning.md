@@ -85,7 +85,7 @@ If you have a local high performance computing center or data storage facility o
 
 If you don't have access to these resources, you can back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
 
-You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. See more in the [cloud lesson](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
+You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The (open science framework)[https://osf.io] is a free option for storing files up to 5 GB. See more in the [cloud lesson](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
 
 
 
