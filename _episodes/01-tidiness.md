@@ -94,7 +94,7 @@ analysis you want to do, you may even separate the genus and species names into 
 > > ## Solution
 > > A full set of types of issues with spreadsheet data is [here](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. Here is a "clean" version of the same spreadsheet:
 
-[Cleaned spreadsheet](../files/OlgaBotvinnik_czbiohub_SampleSheet_Example_clean.csv)
+[Cleaned spreadsheet](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/OlgaBotvinnik_czbiohub_SampleSheet_Example_clean.csv?raw=true)
 > >
 > {: .solution}
 {: .challenge}
