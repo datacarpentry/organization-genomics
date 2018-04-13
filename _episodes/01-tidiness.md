@@ -85,7 +85,7 @@ analysis you want to do, you may even separate the genus and species names into 
 - Leave the raw data raw - don’t change it!
 - Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
 
-[![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](../files/OlgaBotvinnik_czbiohub_SampleSheet_Example_messy.csv)
+[![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/OlgaBotvinnik_czbiohub_SampleSheet_Example_messy.csv?raw=true)
 
 > ## Exercise
 > This is some potential spreadsheet data for an experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above.
