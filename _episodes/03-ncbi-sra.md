@@ -16,7 +16,8 @@ In our experiments we're usually generating our own genomic data, but many types
 There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive are the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) and [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/ena). In this lesson we're working with the NCBI database, but the general process is the same for any database.
 
 # Accessing the original archived data
-The [sequencing dataset adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Lenski paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. The link from the Lenski paper is: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
+
+The [sequencing dataset (from Lenski paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Lenski paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Lenski paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
@@ -27,7 +28,7 @@ You will be presented with a page for the overall SRA accession SRA026813 - this
 
 3. Click on the ['All runs'](http://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP004752) link under where it says **Study**. This is a description of all of the NGS datasets related to the experiment.  
 
-4. Go to the top of the page and in the **Total** row you will see there are 37 runs, 10.15Gb data, and 16.45 Gbases of data. Click the 'RunInfo Table' button.  
+4. Go to the top of the page and in the **Total** row you will see there are 37 runs, 10.15Gb data, and 16.45 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
 
 We are not downloading any actual sequence data here! This is only a text file that fully describes the entire
 dataset.  
@@ -37,7 +38,7 @@ You should now have a file called `SraRunTable.txt`
 ## Review the SraRunTable in a spreadsheet program
 
 
-Using your choice of spreadsheet program open the **SraRunTable.txt** file. If prompted this is a tab-delimited file (`.tsv`).
+Using your choice of spreadsheet program open the `SraRunTable.txt` file. If prompted this is a tab-delimited file (`.tsv`).
 
 > ## Discussion  
 > Discuss with the person next to you:
