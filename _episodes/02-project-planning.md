@@ -85,7 +85,7 @@ If you have a local high performance computing center or data storage facility o
 
 If you don't have access to these resources, you can back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
 
-You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The (open science framework)[https://osf.io] is a free option for storing files up to 5 GB. See more in the [cloud lesson](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
+You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the [cloud lesson](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
 
 
 
@@ -99,12 +99,6 @@ you can accomplish routine tasks, under normal conditions, in an acceptable amou
 be able to get to a solution on instinct alone - taking your time, using Google, and asking for help are all
 valid ways of solving your problems. As you complete the lessons you'll be able to use all of those methods more
 efficiently.  
-
-# 
-
-
-
-
 
 > ## Where to go from here?
 >
