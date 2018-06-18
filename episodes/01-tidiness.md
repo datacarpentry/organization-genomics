@@ -92,7 +92,7 @@ analysis you want to do, you may even separate the genus and species names into 
 >
 >
 > > ## Solution
-> > A full set of types of issues with spreadsheet data is [here](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. The main problem is there are characters in the ids that aren't allowed, e.g. ",", ".", "-", "&" or spaces. Here is a "clean" version of the same spreadsheet:
+> > A full set of types of issues with spreadsheet data is at the [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. The main problem is there are characters in the ids that aren't allowed, e.g. ",", ".", "-", "&" or spaces. Here is a "clean" version of the same spreadsheet:
 > >
 > >[Cleaned spreadsheet](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/SampleSheet_Example_clean.csv?raw=true)
 > >
@@ -108,6 +108,6 @@ Data organization at this point of your experiment will help facilitate your ana
 
 Fear not! If you have already started your project, and it's not set up this way, there are still opportunities to make updates. One of the biggest challenges is tabular data that isn't formatted so computers can use it, or has inconsistencies that make it hard to analyze.
 
-More practice on how to structure data is outlined in our [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
+More practice on how to structure data is outlined in our [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
 
 Tools like [OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) can help you clean your data.
