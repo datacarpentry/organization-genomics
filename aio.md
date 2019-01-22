@@ -1,6 +1,7 @@
 ---
-layout: page 
-permalink: /aio/
+layout: episode
+title: Aio 
+permalink: /aio.html
 ---
 <script>
   window.onload = function() {

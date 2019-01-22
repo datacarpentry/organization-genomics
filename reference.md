@@ -1,6 +1,7 @@
 ---
 layout: reference
-permalink: /reference/
+title: Reference
+permalink: /reference.html
 ---
 
 ## Glossary

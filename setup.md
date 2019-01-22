@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setup
-permalink: /setup/
+permalink: /setup.html
 ---
 
 This lesson requires a working spreadsheet program. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.
