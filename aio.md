@@ -1,5 +1,5 @@
 ---
-layout: episode
+layout: page
 title: Aio 
 permalink: /aio.html
 ---
