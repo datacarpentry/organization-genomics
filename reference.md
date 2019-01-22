@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: page
 title: Reference
 ---
 
