@@ -17,11 +17,11 @@ There are many repositories for public data. Some model organisms or fields have
 
 # Accessing the original archived data
 
-The [sequencing dataset (from Lenski paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Lenski paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Lenski paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
+The [sequencing dataset (from Blount paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Blount paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Blount paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
-1. Access the Lenski dataset from the provided link: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813).  
+1. Access the Blount dataset from the provided link: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813).  
 You will be presented with a page for the overall SRA accession SRA026813 - this is a collection of all the experimental data.
 
 2. Click on the first entry ([ZDB30](http://www.ncbi.nlm.nih.gov/sra/SRX040669%5Baccn%5D)). This will take you to a page for an SRX (Sequence Read eXperiment). Take a few minutes to examine some of the descriptions on the page.

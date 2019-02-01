@@ -54,7 +54,6 @@ with Excel or another spreadsheet program.
 
 When the data come back from the sequencing facility, you will receive some documentation (metadata) as well as
 the sequence files themselves. Download and examine the following example file - here provided as a text file and
-
 Excel file:
 
 - [Sequencing results - text](../files/sequencing_results_metadata.txt)
