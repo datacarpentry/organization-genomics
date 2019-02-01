@@ -75,6 +75,7 @@ Independent of the type of data you're collecting, there are standard ways to en
 
 The cardinal rules of using spreadsheet programs for data:
 
+- Leave the raw data raw - don’t change it!
 - Put each observation or sample in its own row.
 - Put all your variables in columns - the thing that vary between samples, like ‘strain’ or ‘DNA-concentration’.
 - Have column names be explanatory, but not have spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
@@ -82,22 +83,18 @@ The cardinal rules of using spreadsheet programs for data:
 you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
 K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
 analysis you want to do, you may even separate the genus and species names into distinct columns.
-- Leave the raw data raw - don’t change it!
 - Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
 
-[![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/SampleSheet_Example_messy.csv?raw=true)
+![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)
 
 > ## Exercise
-> This is some potential spreadsheet data for an experiment being submitted for sequencing. The program [bcl2fastq](https://support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq_letterbooklet_15038058brpmi.pdf) requires this spreadsheet to use as input to demultiplex the sequencing data into separate files, one per sample. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above.
+> This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to you computer via the link and open it in a spreadsheet reader like Excel. 
 >
 >
 > > ## Solution
-> > A full set of types of issues with spreadsheet data is at the [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. The main problem is there are characters in the ids that aren't allowed, e.g. ",", ".", "-", "&" or spaces. Here is a "clean" version of the same spreadsheet:
+> > A full set of types of issues with spreadsheet data is at the [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. Some problems include not all data sets having the same columns, datasets split into their own tables, color to encode information, different column names, spaces in some columns names. Here is a "clean" version of the same spreadsheet:
 > >
 > >[Cleaned spreadsheet](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/SampleSheet_Example_clean.csv?raw=true)
-> >
-> >File and info provided by [Dr. Olga Botvinnik](https://github.com/olgabot) at [CZ Biohub](https://github.com/czbiohub).
-> >
 > >
 > {: .solution}
 {: .challenge}

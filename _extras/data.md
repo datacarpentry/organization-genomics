@@ -14,34 +14,27 @@ This dataset was selected for our exercise on NGS Data Carpentry for several rea
 
 # Introduction to the dataset  
 
-Microbes are ideal organisms for exploring 'Long-term Evolution Experiments' (LTEEs) - thousands of generations can be generated and stored in a way that would be virtually impossible for more complex eukaryotic systems. In [Blount et al 2012](https://www.ncbi.nlm.nih.gov/pubmed/22992527), 12 populations of *Escherichia coli* were propagated for more than 40,000 generations in a glucose-limited minimal medium. This medium was supplemented with citrate which *E. coli* cannot metabolize in the aerobic conditions of the experiment. Sequencing of the populations at regular time points reveals that spontaneous citrate-using mutants (Cit+) appeared in a population of *E.coli* (designated Ara-3) at around 31,000 generations. It should be noted that spontaneous Cit+ mutants are extraordinarily rare - inability to metabolize citrate is one of the defining characters of the *E. coli* species. Eventually, Cit+ mutants became the dominant population as the experimental growth medium contained a high concentration of citrate relative to glucose.  
+Microbes are ideal organisms for exploring 'Long-term Evolution Experiments' (LTEEs) - thousands of generations can be generated and stored in a way that would be virtually impossible for more complex eukaryotic systems. In [Tenaillon et al 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/), 12 populations of *Escherichia coli* were propagated for more than 50,000 generations in a glucose-limited minimal medium. This medium was supplemented with citrate which *E. coli* cannot metabolize in the aerobic conditions of the experiment. Sequencing of the populations at regular time points reveals that spontaneous citrate-using mutants (Cit+) appeared in a population of *E.coli* (designated Ara-3) at around 31,000 generations. It should be noted that spontaneous Cit+ mutants are extraordinarily rare - inability to metabolize citrate is one of the defining characters of the *E. coli* species. Eventually, Cit+ mutants became the dominant population as the experimental growth medium contained a high concentration of citrate relative to glucose. Around the same time that this mutation emerged, another phenotype become prominent in the Ara-3 population. Many *E. coli* began to develop excessive numbers of mutations, meaning they became hypermutable. 
 
-Strains from generation 0 to generation 40,000 were sequenced, including ones that were both Cit+ and Cit- after generation 31,000.  
+Strains from generation 0 to generation 50,000 were sequenced, including ones that were both Cit+ and Cit- and hypermutable in later generations.  
 
-For the purposes of this workshop we're going to be working with 6 of the sequence reads from this experiment. We also made up genome sizes for each of the strains, to look at the relationship between Cit status and genome size.  **The genome sizes are not real data!!**  
+For the purposes of this workshop we're going to be working with 3 of the sequence reads from this experiment. 
 
+| SRA Run Number | Clone | Generation | Cit  | Hypermutable | Read Length | Sequencing Depth |
+| -------------- | ----- | ---------- | ---- | ----- |-------|--------| 
+| SRR2589044 | REL2181A | 5,000 | Unknown | None |  150 | 60.2 |
+| SRR2584863 | REL7179B | 15000 | Unknown | None |  150 | 88 |
+| SRR2584866 | REL11365 | 50000 | Cit+ | plus |  150 | 138.3 |
 
-| SRA Run Number | Clone | Generation | Cit | GenomeSize |  
-| -------------- | ----- | ---------- | ----- | ----- |  
-| SRR098028 | REL1166A | 2,000 | Unknown | 4.63 |  
-| SRR098281 | ZDB409 | 5,000 | Unknown | 4.6 |  
-| SRR098283 | ZDB446 | 15,000 | Cit- | 4.66 |  
-| SRR097977 | CZB152 | 33,000 | Cit+ | 4.8 |  
-| SRR098026 | CZB154 | 33,000 | Cit+ | 4.76 |  
-| SRR098027 | CZB199 | 33,000 | Cit- | 4.59 |  
+We want to be able to look at differences in mutation rates between hypermutable and non-hypermutable strains. We also want to analyze the sequences to figure out what changes occurred in genomes to make the strains Cit+. Ultimately, we will answer the questions:  
 
-
-We want to be able to look at the genome size to see if there is a difference between genome size and the Cit status of the strain. We also want to analyze the sequences to figure out what changes occurred in genomes to make the strains Cit+. Ultimately, we will answer the questions:  
-
-- What is the distribution of genome sizes for all the strains?  
-- Is there a relationship between genome size and Cit status?  
 - How many base pair changes are there between the Cit+ and Cit- strains?  
 - What are the base pair changes between strains?  
 
-
 ## References  
 
-Blount, Z.D., Barrick, J.E., Davidson, C.J., Lenski, R.E.
-Genomic analysis of a key innovation in an experimental Escherichia coli population (2012) Nature, 489 (7417), pp. 513-518.
-[Paper](https://www.ncbi.nlm.nih.gov/pubmed/22992527), [Supplemental materials](https://www.nature.com/nature/journal/v489/n7417/full/nature11514.html#supplementary-information)  
-Data on NCBI SRA: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)
+Tenaillon O, Barrick JE, Ribeck N, Deatherage DE, Blanchard JL, Dasgupta A, Wu GC, Wielgoss S, Cruveiller S, Médigue C, Schneider D, Lenski RE.
+Tempo and mode of genome evolution in a 50,000-generation experiment (2016) Nature. 536(7615): 165–170.  
+[Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/), [Supplemental materials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/#)  
+Data on NCBI SRA: [https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP064605)  
+Data on EMBL-EBI ENA: [https://www.ebi.ac.uk/ena/data/view/PRJNA295606](https://www.ebi.ac.uk/ena/data/view/PRJNA295606)
