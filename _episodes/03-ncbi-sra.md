@@ -17,18 +17,16 @@ There are many repositories for public data. Some model organisms or fields have
 
 # Accessing the original archived data
 
-The [sequencing dataset (from Blount paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Blount paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Blount paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
+The [sequencing dataset (from Tenaillon paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Blount paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Tenaillon paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
-1. Access the Blount dataset from the provided link: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813).  
-You will be presented with a page for the overall SRA accession SRA026813 - this is a collection of all the experimental data.
+1. Access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/sra/?acc=SRP064605).  
+You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data.
 
-2. Click on the first entry ([ZDB30](http://www.ncbi.nlm.nih.gov/sra/SRX040669%5Baccn%5D)). This will take you to a page for an SRX (Sequence Read eXperiment). Take a few minutes to examine some of the descriptions on the page.
+2. Click on the first entry ([REL4541B](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR2591054)). This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
 
-3. Click on the ['All runs'](http://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP004752) link under where it says **Study**. This is a description of all of the NGS datasets related to the experiment.  
-
-4. Go to the top of the page and in the **Total** row you will see there are 37 runs, 10.15Gb data, and 16.45 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
+3. Go back to the ['previous page'](https://trace.ncbi.nlm.nih.gov/Traces/sra/?acc=SRP064605). At the top of the page and in the **Total** row you will see there are 312 runs, 109.43 Gb data, and 168.81 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
 
 We are not downloading any actual sequence data here! This is only a text file that fully describes the entire
 dataset.  
@@ -52,8 +50,19 @@ Using your choice of spreadsheet program open the `SraRunTable.txt` file. If pro
 > 5. Are you collecting this kind of information about your sequencing runs?
 {: .challenge}
 
-After answering the questions, you should avoid saving this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
+After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
 
+## Downloading a few sequencing files: EBML-EBI 
+
+The SRA does not support direct download of fastq files from its webpage. However, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena) does. Let's see how we can get a download link to a file we are interested in. 
+
+1. Navigate to the [ENA]((https://www.ebi.ac.uk/ena).
+
+2. In the search bar, type in `SRR2589044`. Make sure there are no spaces after the accession number, and press search.
+
+3. You will see a table with information about the sample. In the table, there is a header "FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We don't need to download these files right now, and because they are large we won't put them on our computers now.
+
+We don't recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
 
 ## Where to learn more
 
@@ -64,7 +73,8 @@ After answering the questions, you should avoid saving this file. We don't want 
 
 #### References
 
-Blount, Z.D., Barrick, J.E., Davidson, C.J., Lenski, R.E.
-Genomic analysis of a key innovation in an experimental Escherichia coli population (2012) Nature, 489 (7417), pp. 513-518.  
-[Paper](https://www.ncbi.nlm.nih.gov/pubmed/22992527), [Supplemental materials](https://www.nature.com/nature/journal/v489/n7417/full/nature11514.html#supplementary-information)  
-Data on NCBI SRA: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)
+Tenaillon O, Barrick JE, Ribeck N, Deatherage DE, Blanchard JL, Dasgupta A, Wu GC, Wielgoss S, Cruveiller S, Médigue C, Schneider D, Lenski RE.
+Tempo and mode of genome evolution in a 50,000-generation experiment (2016) Nature. 536(7615): 165–170.  
+[Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/), [Supplemental materials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/#)  
+Data on NCBI SRA: [https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP064605)  
+Data on EMBL-EBI ENA: [https://www.ebi.ac.uk/ena/data/view/PRJNA295606](https://www.ebi.ac.uk/ena/data/view/PRJNA295606)
