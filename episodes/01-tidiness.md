@@ -85,16 +85,16 @@ K12) you would have one column with the species name (*E. coli*) and another wit
 analysis you want to do, you may even separate the genus and species names into distinct columns.
 - Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
 
-![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)
+[![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx)
 
 > ## Exercise
-> This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to you computer via the link and open it in a spreadsheet reader like Excel. 
+> This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to you computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel. 
 >
 >
 > > ## Solution
 > > A full set of types of issues with spreadsheet data is at the [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. Some problems include not all data sets having the same columns, datasets split into their own tables, color to encode information, different column names, spaces in some columns names. Here is a "clean" version of the same spreadsheet:
 > >
-> >[Cleaned spreadsheet](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/files/SampleSheet_Example_clean.csv?raw=true)
+> >[Cleaned spreadsheet](https://raw.githubusercontent.com/datacarpentry/wrangling-genomics/gh-pages/files/Ecoli_metadata_composite.tsv)
 > >
 > {: .solution}
 {: .challenge}
