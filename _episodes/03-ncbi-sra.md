@@ -56,7 +56,7 @@ After answering the questions, you should avoid saving any changes you might hav
 
 The SRA does not support direct download of fastq files from its webpage. However, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena) does. Let's see how we can get a download link to a file we are interested in. 
 
-1. Navigate to the [ENA]((https://www.ebi.ac.uk/ena).
+1. Navigate to the [ENA](https://www.ebi.ac.uk/ena).
 
 2. In the search bar, type in `SRR2589044`. Make sure there are no spaces after the accession number, and press search.
 
