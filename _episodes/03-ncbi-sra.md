@@ -21,7 +21,7 @@ The [sequencing dataset (from Tenaillon paper) adapted for this lesson](http://w
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
-1. Access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/sra/?acc=SRP064605).  
+1. Access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605).  
 You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data.
 
 2. Click on the first entry ([REL4541B](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR2591054)). This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
