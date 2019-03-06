@@ -87,4 +87,3 @@ exclude:
   - .Rproj.user/
 
 # Turn off built-in syntax highlighting.
-highlighter: rouge
