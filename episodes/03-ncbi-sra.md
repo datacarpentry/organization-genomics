@@ -52,7 +52,7 @@ Using your choice of spreadsheet program open the `SraRunTable.txt` file. If pro
 
 After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
 
-## Downloading a few sequencing files: EBML-EBI 
+## Downloading a few sequencing files: EMBL-EBI 
 
 The SRA does not support direct download of fastq files from its webpage. However, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena) does. Let's see how we can get a download link to a file we are interested in. 
 
