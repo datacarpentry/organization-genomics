@@ -37,16 +37,16 @@ of the data in the spreadsheet. What are the pain points!?
 
 #### [Planning for NGS projects](../02-project-planning/)
 
-* 
+* This episode depends on learners discussing exercises with one another. Be sure to give plenty of time for this discussion.
 
 #### [Examining Data on the NCBI SRA Database](../03-ncbi-sra/)
 
-* 
+* Learners should *not* actually download the ENA files in the "Downloading a few sequencing files: EMBL-EBI" section. 
 
 #### Concluding points
 
 * Now your data is organized so that a computer can read and understand it. This
-let's you use the full power of the computer for your analyses as we'll see in the
+lets you use the full power of the computer for your analyses as we'll see in the
 rest of the workshop. 
 
 ## Technical tips and tricks
@@ -70,7 +70,7 @@ likely won't be able to cover all the different versions of Excel.
 If you have a helper who has experience with the other OS than you, it would be good
 to prep them to help with this lesson and tell how people to do things in the other OS.
 
-#### People are not interactive or responsive on the Exercise
+#### People are not interactive or responsive on the exercises
 
 This lesson depends on people working on the exercise and responding with things
 that are fixed. If your audience is reluctant to participate, start out with
