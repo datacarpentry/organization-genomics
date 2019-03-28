@@ -17,7 +17,15 @@ There are many repositories for public data. Some model organisms or fields have
 
 # Accessing the original archived data
 
-The [sequencing dataset (from Tenaillon paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Blount paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Tenaillon paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
+The [sequencing dataset (from Tenaillon paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. We have provided one link from the Tenaillon paper here: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813). See the figures below for how the data was formatted in the original paper. In this case, the authors provided a "PRJNA" accession which is a BioProject identifier. Accession numbers will often also start with either ERX, ERR, DRX, DRR, SRX, or SRR. 
+
+![](../fig/03_paper_header.png)
+
+The above image shows the title of the study, as well as the authors.
+
+![](../fig/03_acc_info.png)
+
+This next image shows an excerpt from the paper in the section where the accession was reported. In this case, this section occurred after the reference section.
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
