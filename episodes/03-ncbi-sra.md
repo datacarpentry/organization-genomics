@@ -23,7 +23,7 @@ The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson]
 
 The above image shows the title of the study, as well as the authors.
 
-The image below shows an excerpt from the paper where the accession information was reported. In this case, the data information were located after the reference section.
+The image below shows an excerpt from the paper where the accession information was reported. In this case, the accession information was located after the reference section.
 
 ![](../fig/03_acc_info.png)  
 
