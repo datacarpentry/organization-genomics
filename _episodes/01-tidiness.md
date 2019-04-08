@@ -37,7 +37,7 @@ All of the data and information just discussed can be considered metadata, data 
 
 ## Notes
 
-Notes about your experiment, including how you prepared your samples from sequencing, should be in your lab notebook, whether that's a physical lab notebook or electronic lab notebook. For guidelines on good lab notebooks, see the Howard Hughes Medical Institute "Making the Right Moves: A Practical Guide to Scientifıc Management for Postdocs and New Faculty" section on
+Notes about your experiment, including how you prepared your samples for sequencing, should be in your lab notebook, whether that's a physical lab notebook or electronic lab notebook. For guidelines on good lab notebooks, see the Howard Hughes Medical Institute "Making the Right Moves: A Practical Guide to Scientifıc Management for Postdocs and New Faculty" section on
 [Data Management and Laboratory Notebooks](http://www.hhmi.org/sites/default/files/Educational%20Materials/Lab%20Management/Making%20the%20Right%20Moves/moves2_ch8.pdf).
 
 
@@ -63,9 +63,9 @@ What type of data to collect depends on your experiment and there are often guid
 > Many fields have particular ways that they structure their metadata so it's
 consistent and can be used across the field.
 >
-> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list). Ones particularly relevant for genomics data are from the [Genomics Standards Consortium](http://gensc.org/projects/).
+> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
 >
-> If there aren't metadata standards already, you can think about what the minimum amount of information someone would need to know about your data to be able to work with it, without talking to you.
+> If there aren't metadata standards already, you can think about what the minimum amount of information is that someone would need to know about your data to be able to work with it, without talking to you.
 >
 {: .callout}
 
@@ -78,7 +78,7 @@ The cardinal rules of using spreadsheet programs for data:
 - Leave the raw data raw - don’t change it!
 - Put each observation or sample in its own row.
 - Put all your variables in columns - the thing that vary between samples, like ‘strain’ or ‘DNA-concentration’.
-- Have column names be explanatory, but not have spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
+- Have column names be explanatory, but without spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
 - Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
 you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
 K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
