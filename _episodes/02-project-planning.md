@@ -95,9 +95,9 @@ organized and keeping a critical eye can help catch mistakes.
 
 One of Data Carpentry's goals is to help you achieve *competency* in working with bioinformatics. This means that
 you can accomplish routine tasks, under normal conditions, in an acceptable amount of time. While an expert might
-be able to get to a solution on instinct alone - taking your time, using Google, and asking for help are all
-valid ways of solving your problems. As you complete the lessons you'll be able to use all of those methods more
-efficiently.  
+be able to get to a solution on instinct alone - taking your time, using an Internet search engine, 
+and asking for help are all valid ways of solving your problems. 
+As you complete the lessons you'll be able to use all of those methods more efficiently.  
 
 > ## Where to go from here?
 >
