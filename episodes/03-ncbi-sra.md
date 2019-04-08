@@ -13,11 +13,19 @@ keypoints:
 
 In our experiments we're usually generating our own genomic data, but many types of analyses use reference data or you may want to use it to compare your results or annotate your data with publicly available data. You may also want to do a full project or set of analyses using publicly available data. This data is a great, and essential, resource for genomic data analysis.
 
-There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive are the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) and [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/ena). In this lesson we're working with the NCBI database, but the general process is the same for any database.
+There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive are provided by the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) has the [Sequence Read Archive (SRA)](https://trace.ncbi.nlm.nih.gov/Traces/sra/) and [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/) has their [Nucleic Acid Archive](https://www.ebi.ac.uk/ena). In this lesson we're working with the NCBI database, but the general process is the same for any database.
 
 # Accessing the original archived data
 
-The [sequencing dataset (from Tenaillon paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (>3 quadrillion basepairs as of 2014) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Blount paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Tenaillon paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
+The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. Here is a link from the Tenaillon paper: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813). See the figures below for how data access was placed within the original paper. 
+
+![](../fig/03_paper_header.png)
+
+The **above image** shows the title of the study, as well as the authors.
+
+The **image below** shows an excerpt from the paper where the accession information was reported. In this case, the accession information was located after the reference section.
+
+![](../fig/03_acc_info.png)  
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
