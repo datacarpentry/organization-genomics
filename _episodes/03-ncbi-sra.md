@@ -17,13 +17,13 @@ There are many repositories for public data. Some model organisms or fields have
 
 # Accessing the original archived data
 
-The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where the SRA the dataset can be found. Here is a link from the Tenaillon paper: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813). See the figures below for how data access was placed within the original paper. 
+The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. Here is a link from the Tenaillon paper: [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813). See the figures below for how data access was placed within the original paper. 
 
 ![](../fig/03_paper_header.png)
 
-The above image shows the title of the study, as well as the authors.
+The **above image** shows the title of the study, as well as the authors.
 
-The image below shows an excerpt from the paper where the accession information was reported. In this case, the accession information was located after the reference section.
+The **image below** shows an excerpt from the paper where the accession information was reported. In this case, the accession information was located after the reference section.
 
 ![](../fig/03_acc_info.png)  
 
