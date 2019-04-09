@@ -21,7 +21,7 @@ The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson]
 
 <table><tr><td>
 <img src="../fig/03_paper_header.png" width="800"/>
-</table></tr></td>
+</td></tr></table>
 
 The **above image** shows the title of the study, as well as the authors.
 
@@ -29,7 +29,7 @@ The **image below** shows an excerpt from the paper where the text for locating 
 
 <table><tr><td>
 <img src="../fig/03_acc_info.png" width="800"/>  
-</table></tr></td>
+</td></tr></table> 
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
