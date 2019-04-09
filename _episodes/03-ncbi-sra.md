@@ -40,7 +40,7 @@ You will be presented with a page for the overall SRA accession SRP064605 - this
 
 2. Click on the Run Number of the first entry ([REL4541B](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR2591054)). This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
 
-3. Go back to the ['previous page'](https://trace.ncbi.nlm.nih.gov/Traces/sra/?acc=SRP064605). At the top of the page and in the **Total** row you will see there are 312 runs, 109.43 Gb data, and 168.81 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
+3. Go back to the ['previous page'](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). At the top of the page and in the **Total** row you will see there are 312 runs, 109.43 Gb data, and 168.81 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
 
 We are not downloading any actual sequence data here! This is only a text file that fully describes the entire
 dataset.  
@@ -66,7 +66,7 @@ Using your choice of spreadsheet program open the `SraRunTable.txt` file. If pro
 
 After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
 
-## Downloading a few sequencing files: EBML-EBI 
+## Downloading a few sequencing files: EMBL-EBI 
 
 The SRA does not support direct download of fastq files from its webpage. However, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena) does. Let's see how we can get a download link to a file we are interested in. 
 
