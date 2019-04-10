@@ -60,7 +60,7 @@ with Excel or another spreadsheet program.
 > >
 > > Improvements in naming
 > > - Shorten client_sample_id names, and maybe just call them "names"
-> >   - For example: "wt for "wild-type". Also, they are all "1hr" so that is superfluous information
+> >   - For example: "wt" for "wild-type". Also, they are all "1hr" so that is superfluous information
 > > - The prep_date and ship_date might not be needed
 > > - Use "microliters" for "Volume (Â¬ÂµL)" etc. 
 > >
