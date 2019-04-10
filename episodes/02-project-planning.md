@@ -57,11 +57,13 @@ with Excel or another spreadsheet program.
 > > - Volume, concentration, and RIN column decimal accuracy changes
 > > - The prep_date and ship_date formats are different, prep_date has multiple formats 
 > > - Are there others not mentioned?
+> >
 > > Improvements in naming
 > > - Shorten client_sample_id names, and maybe just call them "names"
-> > - - For example: "wt for "wild-type". Also, they are all "1hr" so that is superfluous information
+> >   - For example: "wt for "wild-type". Also, they are all "1hr" so that is superfluous information
 > > - The prep_date and ship_date might not be needed
 > > - Use "microliters" for "Volume (Â¬ÂµL)" etc. 
+> >
 > > Errors hard to spot:
 > > - No space between "wild" and "type", repeated barcode numbers, missing data, duplicate names
 > > - Find by sorting, or counting
@@ -86,8 +88,10 @@ Excel file:
 > 4. What does the '.gz' extension on the filenames indicate?
 > 5. What is the total file size - what challenges in downloading and sharing these data might exist?  
 > > ## Solution
+> >
 > > Organization:
 > > - By sample_id
+> >
 > > File names to sample names
 > > - Filename has the sample_id included, can do a VLOOKUP on submission sheet
 > > - \_R1/\_R2 extensions mean "Read 1 and "Read 2 of each sample
