@@ -89,15 +89,12 @@ Excel file:
 > 5. What is the total file size - what challenges in downloading and sharing these data might exist?  
 > > ## Solution
 > >
-> > Organization:
-> > - By sample_id
-> >
-> > File names to sample names
-> > - Filename has the sample_id included, can do a VLOOKUP on submission sheet
-> > - \_R1/\_R2 extensions mean "Read 1 and "Read 2 of each sample
+> > - Samples are organized by sample_id
+> > - To relate filenames use the sample_id, and do a VLOOKUP on submission sheet
+> > - The \_R1/\_R2 extensions mean "Read 1 and "Read 2 of each sample
 > > - The '.gz' extension means it is a compressed "gzip" type format to save disk space
-> > - The size of all the files combined is 1113.60 gb (over a terabyte!). TO move files this large around will
-> >   require checksums to validate file integrity after transfers, and a fast transfer protocol
+> > - The size of all the files combined is 1113.60 gb (over a terabyte!). To move files this large will
+> >   require using checksums to validate file integrity after transfers, and a fast transfer protocol
 > >   or software
 > >
 > {: .solution}
