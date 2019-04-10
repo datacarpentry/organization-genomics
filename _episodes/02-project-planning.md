@@ -48,6 +48,7 @@ with Excel or another spreadsheet program.
 > 1. What are some errors you can spot in the data? Typos, missing data, inconsistencies?
 > 2. What improvements could be made to the choices in naming?
 > 3. What are some errors in the spreadsheet that would be difficult to spot? Is there anyway you can test this?
+>
 > > ## Solution
 > > Errors:
 > > - Sequential order of well_position changes
@@ -87,6 +88,7 @@ Excel file:
 > 3. What do the \_R1/\_R2 extensions mean in the file names?
 > 4. What does the '.gz' extension on the filenames indicate?
 > 5. What is the total file size - what challenges in downloading and sharing these data might exist?  
+>
 > > ## Solution
 > >
 > > - Samples are organized by sample_id
