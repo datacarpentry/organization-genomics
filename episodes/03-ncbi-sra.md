@@ -13,7 +13,7 @@ keypoints:
 
 In our experiments we're usually generating our own genomic data, but many types of analyses use reference data or you may want to use it to compare your results or annotate your data with publicly available data. You may also want to do a full project or set of analyses using publicly available data. This data is a great, and essential, resource for genomic data analysis.
 
-There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive are provided by the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) has the [Sequence Read Archive (SRA)](https://trace.ncbi.nlm.nih.gov/Traces/sra/) and the [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/) has their [Nucleic Acid Archive](https://www.ebi.ac.uk/ena). In this lesson we're working with the NCBI database, but the general process is the same for any database.
+There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive public repositories are provided by the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) and the [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/). The NCBI's [Sequence Read Archive (SRA)](https://trace.ncbi.nlm.nih.gov/Traces/sra/) is the database we will be using for this lesson, but the EMBL-EBI's Nucleic Acid Archive (ENA) is also useful. The general processes are the similar for any database.
 
 # Accessing the original archived data
 
@@ -21,13 +21,13 @@ The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson]
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
 
-See the figures below for how data access was placed within the original paper. 
+See the figures below for how information about data access is provided within the original paper. 
 
 <img style='border:1px solid #000000' src="../fig/03_paper_header.png" width="800"/>
 
 The **above image** shows the title of the study, as well as the authors.
 
-The **image below** shows an excerpt from the paper where the text for locating accession information was reported. In this case, the text was located after the reference section.
+The **image below** shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears after the reference section.
 
 <img style='border:1px solid #000000' src="../fig/03_acc_info.png" width="800"/>
 
