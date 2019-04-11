@@ -47,7 +47,29 @@ with Excel or another spreadsheet program.
 >
 > 1. What are some errors you can spot in the data? Typos, missing data, inconsistencies?
 > 2. What improvements could be made to the choices in naming?
-> 3. What are some errors in the spreadsheet that would be difficult to spot? Is there anyway you can test this?
+> 3. What are some errors in the spreadsheet that would be difficult to spot? Is there any way you can test this?
+>
+> > ## Solution
+> > Errors:
+> > - Sequential order of well_position changes
+> > - Format of client_sample_id changes and cannot have spaces, slashes, non-standard ASCII characters
+> > - Capitalization of the replicate column changes
+> > - Volume and concentration column headers have unusual (not allowed) characters
+> > - Volume, concentration, and RIN column decimal accuracy changes
+> > - The prep_date and ship_date formats are different, prep_date has multiple formats 
+> > - Are there others not mentioned?
+> >
+> > Improvements in naming
+> > - Shorten client_sample_id names, and maybe just call them "names"
+> >   - For example: "wt" for "wild-type". Also, they are all "1hr" so that is superfluous information
+> > - The prep_date and ship_date might not be needed
+> > - Use "microliters" for "Volume (Â¬ÂµL)" etc. 
+> >
+> > Errors hard to spot:
+> > - No space between "wild" and "type", repeated barcode numbers, missing data, duplicate names
+> > - Find by sorting, or counting
+> >
+> {: .solution}
 {: .challenge}
 
 # Retrieving samples from the facility
@@ -66,6 +88,16 @@ Excel file:
 > 3. What do the \_R1/\_R2 extensions mean in the file names?
 > 4. What does the '.gz' extension on the filenames indicate?
 > 5. What is the total file size - what challenges in downloading and sharing these data might exist?  
+>
+> > ## Solution
+> >
+> > 1. Samples are organized by sample_id
+> > 2. To relate filenames use the sample_id, and do a VLOOKUP on submission sheet
+> > 3. The \_R1/\_R2 extensions mean "Read 1" and "Read 2" of each sample
+> > 4. The '.gz' extension means it is a compressed "gzip" type format to save disk space
+> > 5. The size of all the files combined is 1113.60 Gb (over a terabyte!). To transfer files this large you should validate the file size following transfer. Absolute file integrity checks following transfers and methods for faster file transfers are possible but beyond the scope of this lesson. 
+> >
+> {: .solution}
 {: .challenge}
 
 # Storing data
@@ -74,9 +106,9 @@ The raw data you get back from the sequencing center is the foundation of your s
 
 ### Guidelines for storing data
 
-- Store the data in a place that is accessible by you and other members of your lab. At a minimum, you and your PI should have access
+- Store the data in a place that is accessible by you and other members of your lab. At a minimum, you and the head of your lab should have access
 - Store the data in a place that is redundantly backed up. It should be backed up in two locations that are in different physical areas.
-- Leave the raw data raw. You will be working with this data, but you don't want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files.
+- Leave the raw data raw. You will be working with this data, but you don't want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files. We will cover how to avoid accidentally changing files in a later lesson in this workshop [(see File Permissions)](https://datacarpentry.org/shell-genomics/03-working-with-files/#file-permissions).
 
 #### Some data storage solutions
 
@@ -84,9 +116,7 @@ If you have a local high performance computing center or data storage facility o
 
 If you don't have access to these resources, you can back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
 
-You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the [cloud lesson](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
-
-
+You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
 
 # Summary
 
@@ -95,10 +125,8 @@ organized and keeping a critical eye can help catch mistakes.
 
 One of Data Carpentry's goals is to help you achieve *competency* in working with bioinformatics. This means that
 you can accomplish routine tasks, under normal conditions, in an acceptable amount of time. While an expert might
-be able to get to a solution on instinct alone - taking your time, 
-using Google or another Internet search engine, 
-and asking for help are all valid ways of solving your problems. 
-As you complete the lessons you'll be able to use all of those methods more efficiently.  
+be able to get to a solution on instinct alone - taking your time, using Google or another Internet search engine,
+and asking for help are all valid ways of solving your problems. As you complete the lessons you'll be able to use all of those methods more efficiently.  
 
 > ## Where to go from here?
 >
