@@ -13,18 +13,32 @@ keypoints:
 
 In our experiments we're usually generating our own genomic data, but many types of analyses use reference data or you may want to use it to compare your results or annotate your data with publicly available data. You may also want to do a full project or set of analyses using publicly available data. This data is a great, and essential, resource for genomic data analysis.
 
-There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive are provided by the [National Center for Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov) and the [European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/) through the [European Nucleotide Archive](https://www.ebi.ac.uk/ena). In this lesson we're working with the NCBI database, but the general process is the same for any database.
+There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive public repositories are provided by the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) and the [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/). The NCBI's [Sequence Read Archive (SRA)](https://trace.ncbi.nlm.nih.gov/Traces/sra/) is the database we will be using for this lesson, but the EMBL-EBI's Nucleic Acid Archive (ENA) is also useful. The general processes are the similar for any database.
 
 # Accessing the original archived data
 
-The [sequencing dataset (from Tenaillon paper) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019 ([source](https://www.ncbi.nlm.nih.gov/sra/docs/sragrowth/))) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often, as in the Blount paper, there will be a direct link (perhaps in the supplemental information) to where on the SRA the dataset can be found. E.g. the link from the Tenaillon paper is [http://www.ncbi.nlm.nih.gov/sra?term=SRA026813](http://www.ncbi.nlm.nih.gov/sra?term=SRA026813)  
+The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. We are only using a small part of these data, so a direct link cannot be found. If you have time, go through the following detailed description of finding the data we are using today (otherwise skip to the next section). 
 
 ## Locate the Run Accessory Table for the Lenski Dataset on the SRA
+
+See the figures below for how information about data access is provided within the original paper. 
+
+<img style='border:1px solid #000000' src="../fig/03_paper_header.png" width="800"/>
+
+The **above image** shows the title of the study, as well as the authors.
+
+The **image below** shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
+
+<img style='border:1px solid #000000' src="../fig/03_acc_info.png" width="800"/>
+
+Notice that the paper references "PRJNA294072" as a "BioProject" at NCBI. Here is the link to that database: [https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072). Once on the BioProject page, scroll down to the table under **"This project encompasses the following 13 sub-projects:"**. In this table, select **subproject** *"[PRJNA295606](https://www.ncbi.nlm.nih.gov/bioproject/295606)	SRA or Trace	Escherichia coli B str. REL606	E. coli genome evolution over 50,000 generations (The University of Texas at...)"*. This will take you to a page with the subproject description, and a table **"Project Data"** that has a link to the 224 SRA files for this subproject. Click on the number ["224"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=295606) and it will take you to the SRA page for this subproject. For a more organized table, select "Send results to Run selector" at the top of this page. This takes you to the Run Selector page SRP064605 used in the next section. 
+
+## Download the Lenski SRA data from the SRA Run Selector Table
 
 1. Access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605).  
 You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data.
 
-2. Click on the first entry ([REL4541B](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR2591054)). This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
+2. Click on the Run Number of the first entry ([REL4541B](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR2591054)). This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
 
 3. Go back to the ['previous page'](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). At the top of the page and in the **Total** row you will see there are 312 runs, 109.43 Gb data, and 168.81 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
 
