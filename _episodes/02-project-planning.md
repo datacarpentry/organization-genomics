@@ -95,7 +95,7 @@ Excel file:
 > > 2. To relate filenames use the sample_id, and do a VLOOKUP on submission sheet
 > > 3. The \_R1/\_R2 extensions mean "Read 1" and "Read 2" of each sample
 > > 4. The '.gz' extension means it is a compressed "gzip" type format to save disk space
-> > 5. The size of all the files combined is 1113.60 Gb (over a terabyte!). To move files this large you will need to validate file size at least. There are ways to check the integrity after transfers that are beyond the scope ofthis lesson. Also, a fast file transfer protocol if available (*e.g.* NCBI will use [Aspera](https://downloads.asperasoft.com/en/downloads/2), or another option is ["parallel-fastq-dump"](https://github.com/rvalieris/parallel-fastq-dump)). These are also beyond the scope of this lesson.
+> > 5. The size of all the files combined is 1113.60 Gb (over a terabyte!). To transfer files this large you should validate the file size following transfer. Absolute file integrity checks following transfers and methods for faster file transfers are possible but beyond the scope of this lesson. 
 > >
 > {: .solution}
 {: .challenge}
