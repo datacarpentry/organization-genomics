@@ -13,13 +13,13 @@ keypoints:
 
 In our experiments we're usually generating our own genomic data, but many types of analyses use reference data or you may want to use it to compare your results or annotate your data with publicly available data. You may also want to do a full project or set of analyses using publicly available data. This data is a great, and essential, resource for genomic data analysis.
 
-There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive public repositories are provided by the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) and the [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/). The NCBI's [Sequence Read Archive (SRA)](https://trace.ncbi.nlm.nih.gov/Traces/sra/) is the database we will be using for this lesson, but the EMBL-EBI's Nucleic Acid Archive (ENA) is also useful. The general processes are the similar for any database.
+There are many repositories for public data. Some model organisms or fields have specific databases, and there are ones for particular types of data. Two of the most comprehensive public repositories are provided by the [National Center for Biotechnology Information  (NCBI)](https://www.ncbi.nlm.nih.gov) and the [European Nucleotide Archive (EMBL-EBI)](https://www.ebi.ac.uk/). The NCBI's [Sequence Read Archive (SRA)](https://trace.ncbi.nlm.nih.gov/Traces/sra/) is the database we will be using for this lesson, but the EMBL-EBI's Nucleic Acid Archive (ENA) is also useful. The general processes are similar for any database.
 
 # Accessing the original archived data
 
 The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. We are only using a small part of these data, so a direct link cannot be found. If you have time, go through the following detailed description of finding the data we are using today (otherwise skip to the next section). 
 
-## Locate the Run Accessory Table for the Lenski Dataset on the SRA
+## Locate the Run Selector Table for the Lenski Dataset on the SRA
 
 See the figures below for how information about data access is provided within the original paper. 
 
@@ -31,7 +31,26 @@ The **image below** shows an excerpt from the paper that includes information on
 
 <img style='border:1px solid #000000' src="../fig/03_acc_info.png" width="800"/>
 
-Notice that the paper references "PRJNA294072" as a "BioProject" at NCBI. Here is the link to that database: [https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072). Once on the BioProject page, scroll down to the table under **"This project encompasses the following 13 sub-projects:"**. In this table, select **subproject** *"[PRJNA295606](https://www.ncbi.nlm.nih.gov/bioproject/295606)	SRA or Trace	Escherichia coli B str. REL606	E. coli genome evolution over 50,000 generations (The University of Texas at...)"*. This will take you to a page with the subproject description, and a table **"Project Data"** that has a link to the 224 SRA files for this subproject. Click on the number ["224"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=295606) and it will take you to the SRA page for this subproject. For a more organized table, select "Send results to Run selector" at the top of this page. This takes you to the Run Selector page SRP064605 used in the next section. 
+**At the beginning of this workshop we gave you [experimental information about these data](http://www.datacarpentry.org/organization-genomics/data/). This lesson uses a *subset* of SRA files, from a small *subproject* of the BioProject database 
+"PRJNA294072". To find these data you can follow the instructions below:** 
+
+1. Notice that the paper references "PRJNA294072" as a "BioProject" at NCBI. If you go to the [NCBI website](https://www.ncbi.nlm.nih.gov/) and search for "PRJNA294072" you will be shown a link to the "Long-Term Evolution Experiment with E. coli" BioProject. Here is the link to that database: [https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072). 
+
+2. Once on the BioProject page, scroll down to the table under **"This project encompasses the 
+following 13 sub-projects:"**. 
+
+3. In this table, select **subproject** 
+*"[PRJNA295606](https://www.ncbi.nlm.nih.gov/bioproject/295606)	SRA or Trace	Escherichia coli B str. REL606	E. coli genome evolution over 50,000 generations (The University of Texas at...)"*. 
+
+4. This will take you to a page with the subproject description, and a table **"Project Data"** 
+that 
+has a link to the 224 SRA files for this subproject. 
+
+5. Click on the number 
+["224"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=295606) and it will take you to the SRA page for this subproject. 
+
+6. For a more organized table, select "Send results to Run selector" at the top of this page. This 
+takes you to the Run Selector page SRP064605 used in the next section. 
 
 ## Download the Lenski SRA data from the SRA Run Selector Table
 
@@ -61,7 +80,16 @@ Using your choice of spreadsheet program open the `SraRunTable.txt` file. If pro
 > [paired end](http://www.illumina.com/technology/next-generation-sequencing/paired-end-sequencing_assay.html)
 > sequencing data?
 > 4. What other kind of data is available?
-> 5. Are you collecting this kind of information about your sequencing runs?
+> 5. Why are you collecting this kind of information about your sequencing runs?
+>
+> > ## Solution
+> > 1. Escherichia coli B str. REL606 shown under the "organism" column. This is a tricky question because the column labeled "strain" actually has sample names
+> > 2. The Illumina sequencing platform was used shown in the column "Platform". But notice they used multiple instrument types listed under "Instrument"
+> > 3. Sort by LibraryLayout and the column "DATASTORE_filetype" shows that "minhash_sig realign ref_stats sra wgmlst_sig" were used for all single-end reads. (Also notice the Illumina Genome Analyzer IIx was never used for paired-end sequencing)
+> > 4. There are several columns including: megabases of sequence per sample, Assay type, BioSample Model, and more.
+> > 5. These are examples of "metadata" that you should collect for sequencing projects that are sent to public databases. 
+> >
+> {: .solution}
 {: .challenge}
 
 After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
