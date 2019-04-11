@@ -47,7 +47,7 @@ with Excel or another spreadsheet program.
 >
 > 1. What are some errors you can spot in the data? Typos, missing data, inconsistencies?
 > 2. What improvements could be made to the choices in naming?
-> 3. What are some errors in the spreadsheet that would be difficult to spot? Is there anyway you can test this?
+> 3. What are some errors in the spreadsheet that would be difficult to spot? Is there any way you can test this?
 >
 > > ## Solution
 > > Errors:
@@ -91,13 +91,12 @@ Excel file:
 >
 > > ## Solution
 > >
-> > - Samples are organized by sample_id
-> > - To relate filenames use the sample_id, and do a VLOOKUP on submission sheet
-> > - The \_R1/\_R2 extensions mean "Read 1 and "Read 2 of each sample
-> > - The '.gz' extension means it is a compressed "gzip" type format to save disk space
-> > - The size of all the files combined is 1113.60 gb (over a terabyte!). To move files this large will
-> >   require using checksums to validate file integrity after transfers, and a fast transfer protocol
-> >   or software
+> > 1. Samples are organized by sample_id
+> > 2. To relate filenames use the sample_id, and do a VLOOKUP on submission sheet
+> > 3. The \_R1/\_R2 extensions mean "Read 1" and "Read 2" of each sample
+> > 4. The '.gz' extension means it is a compressed "gzip" type format to save disk space
+> > 5. The size of all the files combined is 1113.60 Gb (over a terabyte!). To move files this large will
+> >   Validate file size at least. There are ways to check the integrity after transfersthat are beyond the scope ofthis lesson. Also, a fast file transfer protocol if available (*e.g.* NCBI will use [Aspera](https://downloads.asperasoft.com/en/downloads/2), or another option is ["parallel-fastq-dump"](https://github.com/rvalieris/parallel-fastq-dump)). These are also beyond the scope of this lesson.
 > >
 > {: .solution}
 {: .challenge}
@@ -118,9 +117,7 @@ If you have a local high performance computing center or data storage facility o
 
 If you don't have access to these resources, you can back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
 
-You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the [cloud lesson](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
-
-
+You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](http://www.datacarpentry.org/cloud-genomics/05-which-cloud/).
 
 # Summary
 
@@ -130,8 +127,7 @@ organized and keeping a critical eye can help catch mistakes.
 One of Data Carpentry's goals is to help you achieve *competency* in working with bioinformatics. This means that
 you can accomplish routine tasks, under normal conditions, in an acceptable amount of time. While an expert might
 be able to get to a solution on instinct alone - taking your time, using Google or another Internet search engine,
-and asking for help are all valid ways of solving your problems. 
-As you complete the lessons you'll be able to use all of those methods more efficiently.  
+and asking for help are all valid ways of solving your problems. As you complete the lessons you'll be able to use all of those methods more efficiently.  
 
 > ## Where to go from here?
 >
