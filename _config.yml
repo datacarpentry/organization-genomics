@@ -86,4 +86,4 @@ exclude:
   - bin/
   - .Rproj.user/
 
-# Turn off built-in syntax highlighting.
+remote_theme: carpentries/carpentries-theme
