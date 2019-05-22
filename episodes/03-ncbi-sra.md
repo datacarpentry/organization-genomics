@@ -3,7 +3,7 @@ title: "Examining Data on the NCBI SRA Database"
 teaching: 20
 exercises: 10
 questions:
-- "How to work with public data in the NCBI SRA"
+- "How do I access public sequencing data?"
 objectives:
 - "Be aware that public genomic data is available"
 - "Understand how to access and download this data"  

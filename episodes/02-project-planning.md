@@ -3,7 +3,9 @@ title: "Planning for NGS Projects"
 teaching: 20
 exercises: 10
 questions:
-- "How to plan and organize your data for a genome sequencing project"
+- "How do I plan and organize a genome sequencing project?"
+- "What information does a sequencing facility need?"
+- "What are the guidelines for data storage?"
 objectives:
 - Understand the data we send to and get back from a sequencing center
 - Make decisions about how (if) data will be stored, archived, shared, etc.   
