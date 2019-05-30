@@ -22,8 +22,8 @@ For the purposes of this workshop we're going to be working with 3 of the sequen
 | SRA Run Number | Clone | Generation | Cit  | Hypermutable | Read Length | Sequencing Depth |
 | -------------- | ----- | ---------- | ---- | ----- |-------|--------| 
 | SRR2589044 | REL2181A | 5,000 | Unknown | None |  150 | 60.2 |
-| SRR2584863 | REL7179B | 15000 | Unknown | None |  150 | 88 |
-| SRR2584866 | REL11365 | 50000 | Cit+ | plus |  150 | 138.3 |
+| SRR2584863 | REL7179B | 15,000 | Unknown | None |  150 | 88 |
+| SRR2584866 | REL11365 | 50,000 | Cit+ | plus |  150 | 138.3 |
 
 We want to be able to look at differences in mutation rates between hypermutable and non-hypermutable strains. We also want to analyze the sequences to figure out what changes occurred in genomes to make the strains Cit+. Ultimately, we will answer the questions:  
 
