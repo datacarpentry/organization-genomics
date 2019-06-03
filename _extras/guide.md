@@ -68,7 +68,7 @@ We need better notes and screenshots of how things work on both Mac and PC. But 
 likely won't be able to cover all the different versions of Excel. 
 
 If you have a helper who has experience with the other OS than you, it would be good
-to prep them to help with this lesson and tell how people to do things in the other OS.
+to prep them to help with this lesson and tell people how to do things in the other OS.
 
 #### People are not interactive or responsive on the exercises
 
