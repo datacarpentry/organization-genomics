@@ -1,0 +1,90 @@
+{
+  "contributors": [
+    {
+      "type": "Editor",
+      "name": "Roselyn Lemus"
+    },
+    {
+      "type": "Editor",
+      "name": "Mateusz Kuzak",
+      "orcid": "0000-0003-0087-6021"
+    },
+    {
+      "type": "Editor",
+      "name": "Rayna Harris",
+      "orcid": "0000-0002-7943-5650"
+    },
+    {
+      "type": "Editor",
+      "name": "Peter Hoyt",
+      "orcid": "0000-0002-2767-0923"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Peter R. Hoyt",
+      "orcid": "0000-0002-2767-0923"
+    },
+    {
+      "name": "Deborah Paul",
+      "orcid": "0000-0003-2639-7520"
+    },
+    {
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
+    },
+    {
+      "name": "Amanda Charbonneau",
+      "orcid": "0000-0001-7376-7702"
+    },
+    {
+      "name": "Erin Alison Becker",
+      "orcid": "0000-0002-6832-0233"
+    },
+    {
+      "name": "François Michonneau",
+      "orcid": "0000-0002-9092-966X"
+    },
+    {
+      "name": "Taylor Reiter",
+      "orcid": "0000-0002-7388-421X"
+    },
+    {
+      "name": "Rayna Michelle Harris",
+      "orcid": "0000-0002-7943-5650"
+    },
+    {
+      "name": "Toby Hodges",
+      "orcid": "0000-0003-1766-456X"
+    },
+    {
+      "name": "Jason Williams",
+      "orcid": "0000-0003-3049-2010"
+    },
+    {
+      "name": "Bérénice Batut",
+      "orcid": "0000-0001-9852-1987"
+    },
+    {
+      "name": "Kevin Weitemier",
+      "orcid": "0000-0002-5793-0343"
+    },
+    {
+      "name": "Laura Williams"
+    },
+    {
+      "name": "Daniel O. S. Ouso",
+      "orcid": "0000-0003-0994-2558"
+    },
+    {
+      "name": "Juan A. Ugalde"
+    },
+    {
+      "name": "Paula Andrea Martinez",
+      "orcid": "0000-0002-8990-1985"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}
