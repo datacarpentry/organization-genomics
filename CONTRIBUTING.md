@@ -129,7 +129,8 @@ The maintainers are community volunteers,
 and have final say over what gets merged into the lesson.
 
 ## Issues Labels
-What issue lables in this repository mean? Think if you can asign one of the below labels to your issue.
+
+What issue labels in this repository mean? Think if you can asign one of the below labels to your issue.
 This will help maintainers to decide how to act and should result in quicker response to the issues.
 If you don't assign the label to an issue it will be assigned by the maintainers.
 
