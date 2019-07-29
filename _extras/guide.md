@@ -28,11 +28,11 @@ some of it can be prevented with good strategies for data collection up front.
 very manual and also not reproducible. That's why we're teaching bash shell scripting!
 * Now let's talk about spreadsheets, and when we say spreadsheets, we mean any program that
 does spreadsheets like Excel, LibreOffice, OpenOffice. Most learners are probably using Excel.
-* Ask the audience any things they've accidentally done in spreadsheets. Talk about an example of your own, like that you accidentally sorted only a single column and not the rest
+* Ask the audience any things they've accidentally done in spreadsheets. Talk about an example of your own, like that you accidentally sorted only a single column and not the rest.
 of the data in the spreadsheet. What are the pain points!?
-* As people answer highlight some of these issues with spreadsheets
-* Go through the point about keeping track of your steps and keeping raw data raw
-* Go through the cardinal rule of spreadsheets about columns, rows and cells
+* As people answer, highlight some of these issues with spreadsheets.
+* Go through the point about keeping track of your steps and keeping raw data raw.
+* Go through the cardinal rule of spreadsheets about columns, rows and cells.
 * Hand them a messy data file and have them pair up and work together to clean up the data.
 
 #### [Planning for NGS projects](../02-project-planning/)
@@ -67,8 +67,8 @@ Excel. So, the presenter's environment will only be the same as some of the lear
 We need better notes and screenshots of how things work on both Mac and PC. But we
 likely won't be able to cover all the different versions of Excel. 
 
-If you have a helper who has experience with the other OS than you, it would be good
-to prep them to help with this lesson and tell people how to do things in the other OS.
+If you have a helper who has more experience with the other OS than you, it would be good
+to prepare them to help with this lesson and tell people how to do things in the other OS.
 
 #### People are not interactive or responsive on the exercises
 
