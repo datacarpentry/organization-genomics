@@ -69,7 +69,7 @@ and to meet some of our community members.
 There are many ways to contribute,
 from writing new exercises and improving existing ones
 to updating or filling in the documentation
-and and submitting [bug reports][issues]
+and submitting [bug reports][issues]
 about things that don't work, aren't clear, or are missing.
 If you are looking for ideas,
 please see [the list of issues for this repository][issues],
@@ -130,11 +130,11 @@ and have final say over what gets merged into the lesson.
 
 ## Issues Labels
 
-What issue labels in this repository mean? Think if you can asign one of the below labels to your issue.
+What issue labels in this repository mean? Think if you can assign one of the below labels to your issue.
 This will help maintainers to decide how to act and should result in quicker response to the issues.
-If you don't assign the label to an issue it will be assigned by the maintainers.
+If you don't assign the label to an issue, it will be assigned by the maintainers.
 
-- **duplicate**  means there is other issue reporting same problem
+- **duplicate**  means there is another issue reporting the same problem
 - **enhancement** improvement to the existing content
 - **help wanted** maintainers invite contributors to tackle this issue
 - **invalid** is not considered an issue by the maintainers
