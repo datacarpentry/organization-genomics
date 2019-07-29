@@ -5,8 +5,8 @@ exercises: 10
 questions:
 - "How do I access public sequencing data?"
 objectives:
-- "Be aware that public genomic data is available"
-- "Understand how to access and download this data"  
+- "Be aware that public genomic data is available."
+- "Understand how to access and download this data."  
 keypoints:
 - "Public data repositories are a great source of genomic data."
 ---
@@ -17,7 +17,7 @@ There are many repositories for public data. Some model organisms or fields have
 
 # Accessing the original archived data
 
-The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra) which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. We are only using a small part of these data, so a direct link cannot be found. If you have time, go through the following detailed description of finding the data we are using today (otherwise skip to the next section). 
+The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson](http://www.datacarpentry.org/organization-genomics/data/) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra), which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often there will be a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. We are only using a small part of these data, so a direct link cannot be found. If you have time, go through the following detailed description of finding the data we are using today (otherwise skip to the next section). 
 
 ## Locate the Run Selector Table for the Lenski Dataset on the SRA
 
@@ -69,7 +69,7 @@ You should now have a file called `SraRunTable.txt`
 ## Review the SraRunTable in a spreadsheet program
 
 
-Using your choice of spreadsheet program open the `SraRunTable.txt` file. If prompted this is a tab-delimited file (`.tsv`).
+Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted, this is a tab-delimited file (`.tsv`).
 
 > ## Discussion  
 > Discuss with the person next to you:
