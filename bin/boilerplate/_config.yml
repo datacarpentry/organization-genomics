@@ -7,11 +7,10 @@
 # dc: Data Carpentry
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor traning for instance)
-carpentry: "dc"
+carpentry: "swc"
 
 # Overall title for pages.
-title: "Project Organization and Management for Genomics"
-
+title: "Lesson Title"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -61,7 +60,7 @@ collections:
   extras:
     output: true
     permalink: /:path/index.html
-    
+
 # Set the default layout for things in the episodes collection.
 defaults:
   - values:
@@ -86,4 +85,5 @@ exclude:
   - bin/
   - .Rproj.user/
 
-remote_theme: carpentries/carpentries-theme
+# Turn on built-in syntax highlighting.
+highlighter: rouge

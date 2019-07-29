@@ -1,6 +1,4 @@
 ---
-layout: page
-title: Aio 
 ---
 <script>
   window.onload = function() {
