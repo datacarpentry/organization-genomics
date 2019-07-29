@@ -4,14 +4,14 @@ teaching: 20
 exercises: 10
 questions:
 - "What metadata should I collect?"
-- "How should I structure my sequencing data and metadata"
+- "How should I structure my sequencing data and metadata?"
 objectives:
 - "Think about and understand the types of metadata a sequencing experiment will generate."
-- "Understand the importance of metadata and potential metadata standards"
-- "Explore common formatting challenges in spreadsheet data"
+- "Understand the importance of metadata and potential metadata standards."
+- "Explore common formatting challenges in spreadsheet data."
 keypoints:
-- "Metadata is key for you and others to be able to work with your data"
-- "Tabular data needs to be structured to be able to work with it effectively"
+- "Metadata is key for you and others to be able to work with your data."
+- "Tabular data needs to be structured to be able to work with it effectively."
 ---
 
 # Introduction
@@ -21,20 +21,20 @@ When we think about the data for a sequencing project, we often start by thinkin
 > ## Discussion
 > With the person next to you, discuss:
 >
-> What kinds of data and information have you generated before you send your DNA/RNA off for sequencing?
+> What kinds of data and information have you generated before you sent your DNA/RNA off for sequencing?
 >
 > > ## Solution
 > > Types of files and information you have generated:  
-> > - spreadsheet or tabular data with the data from your experiment and whatever you were measuring for your study
-> > - lab notebook notes about how you conducted those experiments
-> > - spreadsheet or tabular data about the samples you sent off for sequencing. Sequencing centers often have a particular format they need with the name of the sample, DNA concentration and other information.
-> > - lab notebook notes about how you prepared the DNA/RNA for sequencing and what type of sequencing you're doing, e.g. paired end Illumina HiSeq.
+> > - Spreadsheet or tabular data with the data from your experiment and whatever you were measuring for your study.
+> > - Lab notebook notes about how you conducted those experiments.
+> > - Spreadsheet or tabular data about the samples you sent off for sequencing. Sequencing centers often have a particular format they need with the name of the sample, DNA concentration and other information.
+> > - Lab notebook notes about how you prepared the DNA/RNA for sequencing and what type of sequencing you're doing, e.g. paired end Illumina HiSeq.
 > > There likely will be other ideas here too.
 > > Was this more information and data than you were expecting?
 > {: .solution}
 {: .challenge}
 
-All of the data and information just discussed can be considered metadata, data about the data. We want to follow a few guidelines for metadata.
+All of the data and information just discussed can be considered metadata, i.e. data about the data. We want to follow a few guidelines for metadata.
 
 ## Notes
 
@@ -72,7 +72,7 @@ consistent and can be used across the field.
 
 ### Structuring data in spreadsheets
 
-Independent of the type of data you're collecting, there are standard ways to enter that data into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it, so to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
+Independent of the type of data you're collecting, there are standard ways to enter that data into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it. So to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
 
 The cardinal rules of using spreadsheet programs for data:
 
