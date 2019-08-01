@@ -7,7 +7,7 @@ questions:
 - "What information does a sequencing facility need?"
 - "What are the guidelines for data storage?"
 objectives:
-- Understand the data we send to and get back from a sequencing center
+- Understand the data we send to and get back from a sequencing center.
 - Make decisions about how (if) data will be stored, archived, shared, etc.   
 keypoints:
 - "Data being sent to a sequencing center also needs to be structured so you can use it."
@@ -22,7 +22,7 @@ methods and approaches we need in bioinformatics are the same ones we need at th
 
 > ## Discussion
 >
-> Before we go any further here are some important questions to consider. If you are learning at a workshop,
+> Before we go any further, here are some important questions to consider. If you are learning at a workshop,
 > please discuss these questions with your neighbor.
 >
 >
@@ -58,14 +58,14 @@ with Excel or another spreadsheet program.
 > > - Capitalization of the replicate column changes
 > > - Volume and concentration column headers have unusual (not allowed) characters
 > > - Volume, concentration, and RIN column decimal accuracy changes
-> > - The prep_date and ship_date formats are different, prep_date has multiple formats 
+> > - The prep_date and ship_date formats are different, and prep_date has multiple formats 
 > > - Are there others not mentioned?
 > >
 > > Improvements in naming
 > > - Shorten client_sample_id names, and maybe just call them "names"
-> >   - For example: "wt" for "wild-type". Also, they are all "1hr" so that is superfluous information
+> >   - For example: "wt" for "wild-type". Also, they are all "1hr", so that is superfluous information
 > > - The prep_date and ship_date might not be needed
-> > - Use "microliters" for "Volume (Â¬ÂµL)" etc. 
+> > - Use "microliters" for "Volume (µL)" etc. 
 > >
 > > Errors hard to spot:
 > > - No space between "wild" and "type", repeated barcode numbers, missing data, duplicate names
@@ -108,7 +108,7 @@ The raw data you get back from the sequencing center is the foundation of your s
 
 ### Guidelines for storing data
 
-- Store the data in a place that is accessible by you and other members of your lab. At a minimum, you and the head of your lab should have access
+- Store the data in a place that is accessible by you and other members of your lab. At a minimum, you and the head of your lab should have access.
 - Store the data in a place that is redundantly backed up. It should be backed up in two locations that are in different physical areas.
 - Leave the raw data raw. You will be working with this data, but you don't want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files. We will cover how to avoid accidentally changing files in a later lesson in this workshop [(see File Permissions)](https://datacarpentry.org/shell-genomics/03-working-with-files/#file-permissions).
 
