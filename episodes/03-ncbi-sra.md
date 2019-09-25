@@ -57,7 +57,7 @@ takes you to the Run Selector page SRP064605 used in the next section.
 1. Access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605).  
 You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data.
 
-2. Click on the Run Number of the first entry in the table. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
+2. Click on the Run Number of the first entry in the bottom table on the page (third table down). This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
 
 3. Go back to the ['previous page'](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). At the top of the page and in the **Total** row you will see there are 312 runs, 109.43 Gb data, and 168.81 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
 
