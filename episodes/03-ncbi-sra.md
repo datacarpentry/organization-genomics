@@ -66,24 +66,25 @@ takes you to the Run Selector page for BioProject PRJNA295606 (the BioProject nu
 4. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
 ![ncbi-run-browser.png](../fig/03_ncbi_new_run_browser.png)
 
-5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2020-04-27 there were 312 runs, 109.43 Gb data, and 177.71 Gbases of data. 
+5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2020-04-27 there were 312 runs, 109.58 Gb data, and 177.17 Gbases of data. 
 ![ncbi-new-metadata.png](../fig/03_ncbi_new_metadata.png)
 
 6. Click on the “Metadata” button to download the data for this lesson. The filename is “SraRunTable.txt” and save it on your computer Desktop.
 
 > ### Downloading the Lenski SRA data from the SRA Run Selector Table using the old Run Selector
 > 
-> Go to the [“old Run Selector” instructions](/old-ncbi/) and return here after downloading your `SraRunTable.txt` file.
+> Go to the [“old Run Selector” instructions](/old-ncbi/) page and return here after downloading your `SraRunTable.txt` file.
 > 
-> We are describing the “old Run Selector” primarily because the webpages ***and*** downloaded file are slightly different. 
+> We include the “old Run Selector” page because the webpages ***and*** downloaded file `SraRunTable.txt` are slightly different. 
 
-### You should now have a file called SRAruntable.txt
+### You should now have a file called `SraRunTable.txt`
 
 ## Review the SraRunTable in a spreadsheet program
 
 
-Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted, the ***newer***  NCBI Run Selector provides a “comma-separated” file (`.csv`), however if you used the ***older***  SRA Run Selector, this is a tab-delimited file (`.tsv`). Now you know that 
-comma-delimited and tab-delimited files are both "text" files and can be suffixed with `.txt`. 
+Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the ***newer***  NCBI Run Selector provides a **comma-separated** file (often given a suffix of `.csv`), however if you used the ***older***  SRA Run Selector, this is a **tab-separated** file (often given the suffix of `.tsv`). 
+
+Now you know that comma-separated and tab-separated files are both "text" files but use either commas or tabs as **delimiters**, respectively. They both are sometimes suffixed with `.txt`. 
 
 > ## Discussion  
 > Discuss with the person next to you:
