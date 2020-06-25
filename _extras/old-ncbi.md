@@ -23,4 +23,4 @@ dataset.
 
 You should now have a **tab-delimited** file called `SraRunTable.txt`.
 
-**Return to lesson [Examining Data on the NCBI SRA Database](/03-ncbi-sra #you-should-now-have-a-file-called-sraruntabletxt) and continue.**
+**Return to lesson [Examining Data on the NCBI SRA Database](../03-ncbi-sra/index.html#you-should-now-have-a-file-called-sraruntabletxt) and continue.**
