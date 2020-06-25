@@ -43,42 +43,49 @@ following 13 sub-projects:"**.
 *"[PRJNA295606](https://www.ncbi.nlm.nih.gov/bioproject/295606)	SRA or Trace	Escherichia coli B str. REL606	E. coli genome evolution over 50,000 generations (The University of Texas at...)"*. 
 
 4. This will take you to a page with the subproject description, and a table **"Project Data"** 
-that 
-has a link to the 224 SRA files for this subproject. 
+that has a link to the 224 SRA files for this subproject. 
 
 5. Click on the number 
 ["224"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=295606) and it will take you to the SRA page for this subproject. 
+![03_send_results.png](../fig/03_ncbi_send_results.png)
 
-6. For a more organized table, select "Send results to Run selector" at the top of this page. This 
-takes you to the Run Selector page SRP064605 used in the next section. The run selector is being updated, at this point you can either use the redesigned SRA Run Selector or revert to the old Run Selector.
+6. For a more organized table, select "Send results to Run selector". This 
+takes you to the Run Selector page for BioProject PRJNA295606 (the BioProject number for the experiment SRP064605) that is used in the next section. The run selector is being updated, at this point you can either use the redesigned SRA Run Selector (recommended) or revert to the old Run Selector.
 
 
-## (Using the Redesigned SRA Run Selector) Download the Lenski SRA data from the SRA Run Selector Table
+## Download the Lenski SRA data from the (newer) SRA Run Selector Table
 
-1. Access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605).
+1. Make sure you access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data. 
 
-2. Under a section marked "Select." You will see there are 312 runs, 109.43 Gb data, and 168.81 Gbases of data Click on "Metadata". 
+2. At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
+![ncbi-old-runtable](../fig/03_ncbi_new_top.png)
 
-You should now have a file called `SraRunTable.txt`
+3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 312 Items”. Within “Found 312 Items”, click on the first Run Number (Column “run” Row “1”). 
+![ncbi-new-tables2.png](../fig/03_ncbi_new_tables2.png)
 
-## (Reverting to the old Run Selector) Download the Lenski SRA data from the SRA Run Selector Table
+4. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
+![ncbi-run-browser.png](../fig/03_ncbi_new_run_browser.png)
 
-1. Access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). Click on "Revert to the old Run Selector" at the top of the page. 
-You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data.
+5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2020-04-27 there were 312 runs, 109.58 Gb data, and 177.17 Gbases of data. 
+![ncbi-new-metadata.png](../fig/03_ncbi_new_metadata.png)
 
-2. Click on the Run Number of the first entry in the bottom table on the page (third table down). This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
+6. Click on the “Metadata” button to download the data for this lesson. The filename is “SraRunTable.txt” and save it on your computer Desktop.
 
-3. Go back to the ['previous page'](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). At the top of the page and in the **Total** row you will see there are 312 runs, 109.43 Gb data, and 168.81 Gbases of data. Click the 'RunInfo Table' button and save the file locally.
+> ## Downloading the Lenski SRA data from the SRA Run Selector Table using the old Run Selector
+> 
+> Go to the [“old Run Selector” instructions](../old-ncbi/index.html) page and return here after downloading your `SraRunTable.txt` file.
+> 
+> We include the “old Run Selector” page because the webpages ***and*** downloaded file `SraRunTable.txt` are slightly different. 
+{: .callout}
 
-We are not downloading any actual sequence data here! This is only a text file that fully describes the entire
-dataset.  
-
-You should now have a file called `SraRunTable.txt`
+**You should now have a file called `SraRunTable.txt`**
 
 ## Review the SraRunTable in a spreadsheet program
 
 
-Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted, this is a tab-delimited file (`.tsv`).
+Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the ***newer***  NCBI Run Selector provides a **comma-separated** file (often given a suffix of `.csv`), however if you used the ***older***  SRA Run Selector, this is a **tab-separated** file (often given the suffix of `.tsv`). 
+
+Now you know that comma-separated and tab-separated files are both "text" files but use either commas or tabs as **delimiters**, respectively. They both are sometimes suffixed with `.txt`. 
 
 > ## Discussion  
 > Discuss with the person next to you:
