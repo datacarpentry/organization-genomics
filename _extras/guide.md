@@ -49,6 +49,36 @@ of the data in the spreadsheet. What are the pain points!?
 lets you use the full power of the computer for your analyses as we'll see in the
 rest of the workshop. 
 
+## Working with participants' level of expertise
+
+Learners may be taking this lesson for many reasons - they may be just thinking of maybe doing a sequencing experiment, they may be trying to analyse public data, they may have already generated their own data, they may be speculatively acquiring new skills.
+
+You should feel free to "read the room", and it can be helpful to ask more specifics in a pre-workshop survey.
+
+#### [Data tidiness](../01-tidiness/)
+
+Discussion 1, "What kinds of data and information have you generated before you sent your DNA/RNA off for sequencing?" can go very differently depending on the participants' background. Many instructors make adjustments to this section, and they should, depending on the learners. 
+
+Some instructors have succeeded in adding ice-breaker questions and more on scientific background to discussion 1, such as:
+
+* What's your name? 
+* What kind of sequencing data are you collecting? 
+* What question is your experiment answering? 
+* What kinds of data and information have you generated before you sent your DNA/RNA off for sequencing?
+
+This had some positive points:
+
+* instructors got to see the range of projects being worked on (metagenomics, RNA-seq, DNA-seq, etc).
+* we had a good discussion about linked metadata, e.g. a plant scientist also takes photos of their plants, an ecologist has site sampling data.
+* learners got to share lessons they'd learned.
+* for some learners, it may have been the first time they'd thought about it.
+* it only added 5 minutes.
+
+The drawback:
+* only about 1/2 of learners got to the point of talking about file types of that data.
+
+It could be more efficient to ask these questions in the pre-workshop survey, then present the range of answers during the class. It can also be helpful for instructors and helpers to share what they work on.
+
 ## Technical tips and tricks
 
 Provide information on setting up your environment for learners to view your 
