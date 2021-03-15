@@ -26,7 +26,7 @@ The [sequencing dataset (from Tenaillon, *et al.* 2016) adapted for this lesson]
 
 See the figures below for how information about data access is provided within the original paper. 
 
-<img style='border:1px solid #000000' src="../fig/03_paper_header.png" width="800"/>
+<img style='border:1px solid #000000' src="../fig/03_paper_header.png" alt="Screenshot of header from Tenaillon et al. paper (linked in References)" width="800"/>
 
 The **above image** shows the title of the study, as well as the authors.
 
