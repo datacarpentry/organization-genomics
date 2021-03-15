@@ -30,9 +30,17 @@ See the figures below for how information about data access is provided within t
 
 The **above image** shows the title of the study, as well as the authors.
 
-The **image below** shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
+The excerpt from the paper below includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
 
-<img style='border:1px solid #000000' src="../fig/03_acc_info.png" width="800"/>
+> **Author Information** All sequencing data sets are available in the NCBI
+> BioProject database under accession number PRJNA294072. The *breseq*
+> analysis pipeline is available at GitHub ([http://github.com/barricklab/breseq](https://github.com/barricklab/breseq/)).
+> Other analysis scripts are available at the Dryad Digital Repository ([http://dx.doi.org/10.5061/dryad.6226d](https://doi.org/10.5061/dryad.6226d)). R.E.L. will make strains available to qualified
+> recipients, subject to a material transfer agreement. Repreints and permissions
+> information is available at www.nature.com/reprints. The authors declare no
+> competing financial interests. Readers are welcome to comment on the online
+> version of the paper. Correspondence and requests for materials should be
+> addressed to R.E.L. (lenski *at* msu.edu)
 
 **At the beginning of this workshop we gave you [experimental information about these data](http://www.datacarpentry.org/organization-genomics/data/). This lesson uses a *subset* of SRA files, from a small *subproject* of the BioProject database 
 "PRJNA294072". To find these data you can follow the instructions below:** 
