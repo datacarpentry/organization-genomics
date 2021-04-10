@@ -45,7 +45,7 @@ Notes about your experiment, including how you prepared your samples for sequenc
 Including dates on your lab notebook pages, the samples themselves and in
 any records about those samples helps you associate everything with each
 other later. Using dates also helps create unique identifiers, because even
-if you process the same sample twice, you don't usually do it on the same
+if you process the same sample twice, you do not usually do it on the same
 day, or if you do, you're aware of it and give them names like A and B.
 
 > ## Unique identifiers
@@ -66,7 +66,7 @@ consistent and can be used across the field.
 >
 > The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
 >
-> If there aren't metadata standards already, you can think about what the minimum amount of information is that someone would need to know about your data to be able to work with it, without talking to you.
+> If there are not metadata standards already, you can think about what the minimum amount of information is that someone would need to know about your data to be able to work with it, without talking to you.
 >
 {: .callout}
 
@@ -76,11 +76,11 @@ Independent of the type of data you're collecting, there are standard ways to en
 
 The cardinal rules of using spreadsheet programs for data:
 
-- Leave the raw data raw - don’t change it!
+- Leave the raw data raw - do not change it!
 - Put each observation or sample in its own row.
 - Put all your variables in columns - the thing that vary between samples, like ‘strain’ or ‘DNA-concentration’.
 - Have column names be explanatory, but without spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
-- Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
+- Do not combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
 you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
 K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
 analysis you want to do, you may even separate the genus and species names into distinct columns.
@@ -104,7 +104,7 @@ analysis you want to do, you may even separate the genus and species names into 
 
 Data organization at this point of your experiment will help facilitate your analysis later, as well as prepare your data and notes for data deposition now often required by journals and funding agencies. If this is a collaborative project, as most projects are now, it's also information that collaborators will need to interpret your data and results and is very useful for communication and efficiency.
 
-Fear not! If you have already started your project, and it's not set up this way, there are still opportunities to make updates. One of the biggest challenges is tabular data that isn't formatted so computers can use it, or has inconsistencies that make it hard to analyze.
+Fear not! If you have already started your project, and it's not set up this way, there are still opportunities to make updates. One of the biggest challenges is tabular data that is not formatted so computers can use it, or has inconsistencies that make it hard to analyze.
 
 More practice on how to structure data is outlined in our [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
 
