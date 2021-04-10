@@ -111,7 +111,7 @@ Now you know that comma-separated and tab-separated files are both "text" files 
 > {: .solution}
 {: .challenge}
 
-After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
+After answering the questions, you should avoid saving any changes you might have made to this file. We do not want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
 
 ## Downloading a few sequencing files: EMBL-EBI 
 
@@ -121,9 +121,9 @@ The SRA does not support direct download of fastq files from its webpage. Howeve
 
 2. In the search bar, type in `SRR2589044`. Make sure there are no spaces after the accession number, and press search.
 
-3. You will see a table with information about the sample. In the table, there is a header "FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We don't need to download these files right now, and because they are large we won't put them on our computers now.
+3. You will see a table with information about the sample. In the table, there is a header "FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We do not need to download these files right now, and because they are large we will not put them on our computers now.
 
-We don't recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
+We do not recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
 
 ## Where to learn more
 
