@@ -57,7 +57,7 @@ following 13 sub-projects:"**.
 that has a link to the 224 SRA files for this subproject. 
 
 5. Click on the number 
-["224"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=295606) and it will take you to the SRA page for this subproject. 
+["224"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=295606) next to "SRA Experiments" and it will take you to the SRA page for this subproject. 
 ![03_send_results.png](../fig/03_ncbi_send_results.png)
 
 6. For a more organized table, select "Send results to Run selector". This 
@@ -69,9 +69,9 @@ takes you to the Run Selector page for BioProject PRJNA295606 (the BioProject nu
 1. Make sure you access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data. 
 
 2. At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
-![ncbi-old-runtable](../fig/03_ncbi_new_top.png)
+![ncbi-old-runtable](../fig/03_ncbi_new_top2.png)
 
-3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 312 Items”. Within “Found 312 Items”, click on the first Run Number (Column “run” Row “1”). 
+3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 312 Items”. Within “Found 312 Items”, click on the first Run Number (Column “Run” Row “1”). 
 ![ncbi-new-tables2.png](../fig/03_ncbi_new_tables2.png)
 
 4. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
@@ -127,9 +127,9 @@ The SRA does not support direct download of fastq files from its webpage. Howeve
 
 1. Navigate to the [ENA](https://www.ebi.ac.uk/ena).
 
-2. In the search bar, type in `SRR2589044`. Make sure there are no spaces after the accession number, and press search.
+2. In the "Accession" search bar, type in `SRR2589044`. Make sure there are no spaces after the accession number, and press search.
 
-3. You will see a table with information about the sample. In the table, there is a header "FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We do not need to download these files right now, and because they are large we will not put them on our computers now.
+3. You will see a table with information about the sample. In the table, scroll down to see there is a header "FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We do not need to download these files right now, and because they are large we will not put them on our computers now.
 
 We do not recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
 
