@@ -48,7 +48,7 @@ The excerpt from the paper below includes information on how to locate the seque
 1. Notice that the paper references "PRJNA294072" as a "BioProject" at NCBI. If you go to the [NCBI website](https://www.ncbi.nlm.nih.gov/) and search for "PRJNA294072" you will be shown a link to the "Long-Term Evolution Experiment with E. coli" BioProject. Here is the link to that database: [https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072). 
 
 2. Once on the BioProject page, scroll down to the table under **"This project encompasses the 
-following 13 sub-projects:"**. 
+following 14 sub-projects:"**. 
 
 3. In this table, select **subproject** 
 *"[PRJNA295606](https://www.ncbi.nlm.nih.gov/bioproject/295606)	SRA or Trace	Escherichia coli B str. REL606	E. coli genome evolution over 50,000 generations (The University of Texas at...)"*. 
@@ -94,7 +94,7 @@ takes you to the Run Selector page for BioProject PRJNA295606 (the BioProject nu
 ## Review the SraRunTable in a spreadsheet program
 
 
-Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the ***newer***  NCBI Run Selector provides a **comma-separated** file (often given a suffix of `.csv`), however if you used the ***older***  SRA Run Selector, this is a **tab-separated** file (often given the suffix of `.tsv`). 
+Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the ***newer***  NCBI Run Selector provides a **comma-separated** file (often given a suffix of `.csv`), however if you used the ***older***  SRA Run Selector, this is a **tab-separated** file (often given the suffix of `.tsv`). Open this file with Excel or another spreadsheet. If you have trouble opening the file, make a copy, then rename the copy using the `.tsv` or `.csv` suffix. 
 
 Now you know that comma-separated and tab-separated files are both "text" files but use either commas or tabs as **delimiters**, respectively. They both are sometimes suffixed with `.txt`. 
 
@@ -112,7 +112,7 @@ Now you know that comma-separated and tab-separated files are both "text" files 
 > > ## Solution
 > > 1. Escherichia coli B str. REL606 shown under the "organism" column. This is a tricky question because the column labeled "strain" actually has sample names
 > > 2. The Illumina sequencing platform was used shown in the column "Platform". But notice they used multiple instrument types listed under "Instrument"
-> > 3. Sort by LibraryLayout and the column "DATASTORE_filetype" shows that "minhash_sig realign ref_stats sra wgmlst_sig" were used for all single-end reads. (Also notice the Illumina Genome Analyzer IIx was never used for paired-end sequencing)
+> > 3. Sort by LibraryLayout and the column "DATASTORE_filetype" shows that "fastq,sra" were used for all single-end reads. (Also notice the Illumina Genome Analyzer IIx was never used for paired-end sequencing)
 > > 4. There are several columns including: megabases of sequence per sample, Assay type, BioSample Model, and more.
 > > 5. These are examples of "metadata" that you should collect for sequencing projects that are sent to public databases. 
 > >
