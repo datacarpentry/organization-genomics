@@ -129,7 +129,7 @@ The SRA does not support direct download of fastq files from its webpage. Howeve
 
 2. Near the top right, in the box next to "View", type in `SRR2589044` and click the "View" button.
 
-3. This will take you to a page with information about the data. Near the bottom you will have the option to download the data by FTP. You can download the `.fastq` read files here. We do not need to download these files right now, and because they are large. Alternatively, right click and copy the URL to save it for later. 
+3. This will take you to a page with information about the data. Near the bottom you will have the option to download the data by FTP. You could download the `.fastq` read files here, but we do not need to download these files right now and they are large. Alternatively, right click and copy the URL to save it for later. 
 
 We do not recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
 
