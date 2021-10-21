@@ -123,13 +123,13 @@ After answering the questions, you should avoid saving any changes you might hav
 
 ## Downloading a few sequencing files: EMBL-EBI 
 
-The SRA does not support direct download of fastq files from its webpage. However, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena) does. Let's see how we can get a download link to a file we are interested in. 
+The SRA does not support direct download of fastq files from its webpage. However, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) does. Let's see how we can get a download link to a file we are interested in. 
 
-1. Navigate to the [ENA](https://www.ebi.ac.uk/ena).
+1. Navigate to the [ENA](https://www.ebi.ac.uk/ena/browser/home).
 
-2. In the "Accession" search bar, type in `SRR2589044`. Make sure there are no spaces after the accession number, and press search.
+2. Near the top right, in the box next to "View", type in `SRR2589044` and click the "View" button.
 
-3. You will see a table with information about the sample. In the table, scroll down to see there is a header "FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We do not need to download these files right now, and because they are large we will not put them on our computers now.
+3. This will take you to a page with information about the data. Near the bottom you will have the option to download the data by FTP. You can download the `.fastq` read files here. We do not need to download these files right now, and because they are large. Alternatively, right click and copy the URL to save it for later. 
 
 We do not recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
 
