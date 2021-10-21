@@ -112,7 +112,7 @@ Now you know that comma-separated and tab-separated files are both "text" files 
 > > ## Solution
 > > 1. Escherichia coli B str. REL606 shown under the "organism" column. This is a tricky question because the column labeled "strain" actually has sample names
 > > 2. The Illumina sequencing platform was used shown in the column "Platform". But notice they used multiple instrument types listed under "Instrument"
-> > 3. Sort by LibraryLayout and the column "DATASTORE_filetype" shows that "fastq,sra" were used for all single-end reads. (Also notice the Illumina Genome Analyzer IIx was never used for paired-end sequencing)
+> > 3. Sort by LibraryLayout and the column "DATASTORE_filetype" shows that "realign,sra,wgmlst_sig" were used for paired-end data, while "fastq,sra" were used for all single-end reads. (Also notice the Illumina Genome Analyzer IIx was never used for paired-end sequencing)
 > > 4. There are several columns including: megabases of sequence per sample, Assay type, BioSample Model, and more.
 > > 5. These are examples of "metadata" that you should collect for sequencing projects that are sent to public databases. 
 > >
