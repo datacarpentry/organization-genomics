@@ -16,7 +16,8 @@ keypoints:
 
 ## Introduction
 
-When we think about the data for a sequencing project, we often start by thinking about the sequencing data that we get back from the sequencing center, but just as important, if not more so, is the data you've generated about the sequences before it ever goes to the sequencing center. This is the data about the data, often called the metadata. Without the information about what you sequenced, the sequence data itself is useless.
+
+When we think about the data for a sequencing project, we often start by thinking about the sequencing data that we get back from the sequencing center. However, equally or more important is the data you've generated _about_ the sequences before it ever goes to the sequencing center. This is the data about the data, often called the metadata. Without the information about what you sequenced, the sequence data itself is useless.  
 
 > ## Discussion
 > With the person next to you, discuss:
@@ -42,8 +43,8 @@ Notes about your experiment, including how you prepared your samples for sequenc
 [Data Management and Laboratory Notebooks](http://www.hhmi.org/sites/default/files/Educational%20Materials/Lab%20Management/Making%20the%20Right%20Moves/moves2_ch8.pdf).
 
 
-Including dates on your lab notebook pages, the samples themselves and in
-any records about those samples helps you associate everything with each
+Ensure to include dates on your lab notebook pages, the samples themselves, and in
+any records about those samples. This will help you correctly associate samples
 other later. Using dates also helps create unique identifiers, because even
 if you process the same sample twice, you do not usually do it on the same
 day, or if you do, you're aware of it and give them names like A and B.
@@ -72,7 +73,7 @@ consistent and can be used across the field.
 
 ## Structuring data in spreadsheets
 
-Independent of the type of data you're collecting, there are standard ways to enter that data into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it. So to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
+Regardless of the type of data you're collecting, there are standard ways to enter that data into the spreadsheet to make it easier to analyze later. We often enter data in a way that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it. So to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
 
 The cardinal rules of using spreadsheet programs for data:
 
@@ -102,9 +103,9 @@ analysis you want to do, you may even separate the genus and species names into 
 
 ### Further notes on data tidiness
 
-Data organization at this point of your experiment will help facilitate your analysis later, as well as prepare your data and notes for data deposition now often required by journals and funding agencies. If this is a collaborative project, as most projects are now, it's also information that collaborators will need to interpret your data and results and is very useful for communication and efficiency.
+Organizing your data properly at this point of your experiment will help your analysis later. It will also prepare your data and notes for data deposition, which is often required by journals and funding agencies. If this is a collaborative project, as most projects are now, it's also vital information for your collaborators. Well organized data is very useful for communication and efficiency.
 
-Fear not! If you have already started your project, and it's not set up this way, there are still opportunities to make updates. One of the biggest challenges is tabular data that is not formatted so computers can use it, or has inconsistencies that make it hard to analyze.
+Fear not! If you have already started your project and it's not set up this way, there are still opportunities to make updates. One of the biggest challenges is tabular data that is not formatted so computers can use it, or has inconsistencies that make it hard to analyze.
 
 More practice on how to structure data is outlined in our [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
 
