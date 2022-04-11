@@ -14,9 +14,9 @@ keypoints:
 - "Tabular data needs to be structured to be able to work with it effectively."
 ---
 
-# Introduction
+## Introduction
 
-When we think about the data for a sequencing project, we often start by thinking about the sequencing data that we get back from the sequencing center, but just as important, if not more so, is the data you've generated about the sequences before it ever goes to the sequencing center. This is the data about the data, often called the metadata. Without the information about what you sequenced, the sequence data itself is useless.  
+When we think about the data for a sequencing project, we often start by thinking about the sequencing data that we get back from the sequencing center, but just as important, if not more so, is the data you've generated about the sequences before it ever goes to the sequencing center. This is the data about the data, often called the metadata. Without the information about what you sequenced, the sequence data itself is useless.
 
 > ## Discussion
 > With the person next to you, discuss:
@@ -24,7 +24,7 @@ When we think about the data for a sequencing project, we often start by thinkin
 > What kinds of data and information have you generated before you sent your DNA/RNA off for sequencing?
 >
 > > ## Solution
-> > Types of files and information you have generated:  
+> > Types of files and information you have generated:
 > > - Spreadsheet or tabular data with the data from your experiment and whatever you were measuring for your study.
 > > - Lab notebook notes about how you conducted those experiments.
 > > - Spreadsheet or tabular data about the samples you sent off for sequencing. Sequencing centers often have a particular format they need with the name of the sample, DNA concentration and other information.
@@ -70,7 +70,7 @@ consistent and can be used across the field.
 >
 {: .callout}
 
-### Structuring data in spreadsheets
+## Structuring data in spreadsheets
 
 Independent of the type of data you're collecting, there are standard ways to enter that data into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it. So to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
 
@@ -81,26 +81,26 @@ The cardinal rules of using spreadsheet programs for data:
 - Put all your variables in columns - the thing that vary between samples, like ‘strain’ or ‘DNA-concentration’.
 - Have column names be explanatory, but without spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
 - Do not combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
-you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
-K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
+you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli*
+K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of
 analysis you want to do, you may even separate the genus and species names into distinct columns.
 - Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
 
 [![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx)
 
 > ## Discussion
-> This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to your computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel. 
+> This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to your computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel.
 >
 >
 > > ## Solution
 > > A full set of types of issues with spreadsheet data is at the [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. Some problems include not all data sets having the same columns, datasets split into their own tables, color to encode information, different column names, spaces in some columns names. Here is a "clean" version of the same spreadsheet:
 > >
 > >[Cleaned spreadsheet](https://raw.githubusercontent.com/datacarpentry/wrangling-genomics/gh-pages/files/Ecoli_metadata_composite.tsv)
-> >Download the file using right-click (PC)/command-click (Mac). 
+> >Download the file using right-click (PC)/command-click (Mac).
 > {: .solution}
 {: .challenge}
 
-## Further notes on data tidiness
+### Further notes on data tidiness
 
 Data organization at this point of your experiment will help facilitate your analysis later, as well as prepare your data and notes for data deposition now often required by journals and funding agencies. If this is a collaborative project, as most projects are now, it's also information that collaborators will need to interpret your data and results and is very useful for communication and efficiency.
 
