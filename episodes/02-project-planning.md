@@ -95,7 +95,9 @@ Excel file:
 > >
 > > 1. Samples are organized by sample\_id
 > > 2. To relate filenames use the sample\_id, and do a VLOOKUP on submission sheet
-> > 3. The \_R1/\_R2 extensions mean "read 1" and "read 2" of each sample. These typically refer to forward and reverse reads of the same DNA fragment from the sequencer.
+> > 3. The \_R1/\_R2 extensions mean "read 1" and "read 2" of each sample. These
+> > typically refer to forward and reverse reads of the same DNA fragment from
+> > the sequencer, i.e. during paired-end sequencing.
 > > 4. The '.gz' extension means it is a compressed "gzip" type format to save disk space
 > > 5. The size of all the files combined is 1113.60 Gb (over a terabyte!). To transfer files this large you should validate the file size following transfer. Absolute file integrity checks following transfers and methods for faster file transfers are possible but beyond the scope of this lesson.
 > >
