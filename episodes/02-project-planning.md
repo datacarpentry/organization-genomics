@@ -86,16 +86,18 @@ Excel file:
 > ## Exercise
 >
 > 1. How are these samples organized?
-> 2. If you wanted to relate file names to the sample names submitted above (e.g. wild type...) could you do so?
+> 2. If you wanted to associate the sequence file names with their corresponding sample names from the submission sheet, could you do so? How?
 > 3. What do the \_R1/\_R2 extensions mean in the file names?
 > 4. What does the '.gz' extension on the filenames indicate?
 > 5. What is the total file size - what challenges in downloading and sharing these data might exist?
 >
 > > ## Solution
 > >
-> > 1. Samples are organized by sample_id
-> > 2. To relate filenames use the sample_id, and do a VLOOKUP on submission sheet
-> > 3. The \_R1/\_R2 extensions mean "Read 1" and "Read 2" of each sample
+> > 1. Samples are organized by sample\_id
+> > 2. To relate filenames use the sample\_id, and do a VLOOKUP on submission sheet
+> > 3. The \_R1/\_R2 extensions mean "read 1" and "read 2" of each sample. These
+> > typically refer to forward and reverse reads of the same DNA fragment from
+> > the sequencer, i.e. during paired-end sequencing.
 > > 4. The '.gz' extension means it is a compressed "gzip" type format to save disk space
 > > 5. The size of all the files combined is 1113.60 Gb (over a terabyte!). To transfer files this large you should validate the file size following transfer. Absolute file integrity checks following transfers and methods for faster file transfers are possible but beyond the scope of this lesson.
 > >
