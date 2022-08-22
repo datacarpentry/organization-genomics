@@ -65,7 +65,7 @@ What type of data to collect depends on your experiment and there are often guid
 > Many fields have particular ways that they structure their metadata so it's
 consistent and can be used across the field.
 >
-> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
+> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://www.gensc.org/pages/projects.html).
 >
 > If there are not metadata standards already, you can think about what the minimum amount of information is that someone would need to know about your data to be able to work with it, without talking to you.
 >
