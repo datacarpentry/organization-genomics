@@ -99,6 +99,7 @@ Using your choice of spreadsheet program, open the `SraRunTable.csv` file.
 > sequencing data?
 > 4. What other kind of data is available?
 > 5. Why are you collecting this kind of information about your sequencing runs?
+> 
 > > ## Solution
 > > 1. Escherichia coli B str. REL606 shown under the "organism" column. This is a tricky question because the column labeled "strain" actually has sample names
 > > 2. The Illumina sequencing platform was used shown in the column "Platform". But notice they used multiple instrument types listed under "Instrument"
