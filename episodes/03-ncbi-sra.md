@@ -80,16 +80,15 @@ takes you to the Run Selector page for BioProject PRJNA295606 (the BioProject nu
 
 **You should now have a file called `SraRunTable.csv`** on your desktop.
 
+> Now you know that comma-separated (and tab-separated) files can be designated as "text" (`.txt`) 
+> files but use either commas (or tabs) as **delimiters**, respectively. Sometimes you 
+> might need to use a text-editor (*e.g.* Notepad) to determine if a file suffixed with `.txt`  is 
+> actually comma-delimited or tab-delimited. 
+
 ### Review the SraRunTable metadata in a spreadsheet program
 
 Using your choice of spreadsheet program, open the `SraRunTable.csv` file. 
 
-> Now you know that comma-separated (and tab-separated) files can be designated as "text" ('.txt') 
-> files but use either commas (or tabs) as **delimiters**, respectively. Sometimes you 
-> might need to use a text-editor (*e.g.* Notepad) to determine if a file suffixed with `.txt`  is 
-> actually commaa-delimited or tab-delimited. 
-
-   
 > ## Discussion
 > Discuss with the person next to you:
 >
