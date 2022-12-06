@@ -61,43 +61,35 @@ that has a link to the 224 SRA files for this subproject.
 ![03_send_results.png](../fig/03_ncbi_send_results.png)
 
 6. For a more organized table, select "Send results to Run selector". This
-takes you to the Run Selector page for BioProject PRJNA295606 (the BioProject number for the experiment SRP064605) that is used in the next section. The run selector is being updated, at this point you can either use the redesigned SRA Run Selector (recommended) or revert to the old Run Selector.
+takes you to the Run Selector page for BioProject PRJNA295606 (the BioProject number for the experiment SRP064605) that is used in the next section. 
 
+### Download the Lenski SRA data from the SRA Run Selector Table
 
-### Download the Lenski SRA data from the (newer) SRA Run Selector Table
+1. Make sure you access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). This is NCBI’s cloud-based SRA interface. You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data.
 
-1. Make sure you access the Tenaillon dataset from the provided link: [https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP064605). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall SRA accession SRP064605 - this is a collection of all the experimental data.
-
-2. At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
-![ncbi-old-runtable](../fig/03_ncbi_new_top2.png)
-
-3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 312 Items”. Within “Found 312 Items”, click on the first Run Number (Column “Run” Row “1”).
+2. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 312 Items”. Within “Found 312 Items”, click on the first Run Number (Column “Run” Row “1”).
 ![ncbi-new-tables2.png](../fig/03_ncbi_new_tables2.png)
 
-4. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
+3. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
 ![ncbi-run-browser.png](../fig/03_ncbi_new_run_browser.png)
 
-5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2020-04-27 there were 312 runs, 109.58 Gb data, and 177.17 Gbases of data.
+4. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2022-12-06 there were 312 runs, 109.58 Gb data, and 177.17 Gbases of data.
 ![ncbi-new-metadata.png](../fig/03_ncbi_new_metadata.png)
 
-6. Click on the “Metadata” button to download the data for this lesson. The filename is “SraRunTable.txt” and save it on your computer Desktop.
+5. Click on the “Metadata” button to download the data for this lesson. The filename is “SraRunTable.txt” and save it on your computer Desktop. This text-based file is actually a "comma-delimited" file, so you should rename the file to "SraRunTable.csv" for your spreadsheet software to open it correctly. 
 
-> ## Downloading the Lenski SRA data from the SRA Run Selector Table using the old Run Selector
->
-> Go to the [“old Run Selector” instructions](../old-ncbi/index.html) page and return here after downloading your `SraRunTable.txt` file.
->
-> We include the “old Run Selector” page because the webpages ***and*** downloaded file `SraRunTable.txt` are slightly different.
-{: .callout}
+**You should now have a file called `SraRunTable.csv`** on your desktop.
 
-**You should now have a file called `SraRunTable.txt`**
+### Review the SraRunTable metadata in a spreadsheet program
 
-### Review the SraRunTable in a spreadsheet program
+Using your choice of spreadsheet program, open the `SraRunTable.csv` file. 
 
+> Now you know that comma-separated (and tab-separated) files can be designated as "text" ('.txt') 
+> files but use either commas (or tabs) as **delimiters**, respectively. Sometimes you 
+> might need to use a text-editor (*e.g.* Notepad) to determine if a file suffixed with `.txt`  is 
+> actually commaa-delimited or tab-delimited. 
 
-Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the ***newer***  NCBI Run Selector provides a **comma-separated** file (often given a suffix of `.csv`), however if you used the ***older***  SRA Run Selector, this is a **tab-separated** file (often given the suffix of `.tsv`). Open this file with Excel or another spreadsheet. If you have trouble opening the file, make a copy, then rename the copy using the `.tsv` or `.csv` suffix.
-
-Now you know that comma-separated and tab-separated files are both "text" files but use either commas or tabs as **delimiters**, respectively. They both are sometimes suffixed with `.txt`.
-
+   
 > ## Discussion
 > Discuss with the person next to you:
 >
@@ -108,7 +100,6 @@ Now you know that comma-separated and tab-separated files are both "text" files 
 > sequencing data?
 > 4. What other kind of data is available?
 > 5. Why are you collecting this kind of information about your sequencing runs?
->
 > > ## Solution
 > > 1. Escherichia coli B str. REL606 shown under the "organism" column. This is a tricky question because the column labeled "strain" actually has sample names
 > > 2. The Illumina sequencing platform was used shown in the column "Platform". But notice they used multiple instrument types listed under "Instrument"
@@ -119,7 +110,7 @@ Now you know that comma-separated and tab-separated files are both "text" files 
 > {: .solution}
 {: .challenge}
 
-After answering the questions, you should avoid saving any changes you might have made to this file. We do not want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
+After answering the questions, you should avoid saving any changes you might have made to the metadata file. We do not want to make any changes. If you were to save this file, make sure you save it as a text-based `.csv` file format.
 
 ## Downloading a few sequencing files: EMBL-EBI
 
