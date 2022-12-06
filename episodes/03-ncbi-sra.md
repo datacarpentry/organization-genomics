@@ -48,7 +48,7 @@ The excerpt from the paper below includes information on how to locate the seque
 1. Notice that the paper references "PRJNA294072" as a "BioProject" at NCBI. If you go to the [NCBI website](https://www.ncbi.nlm.nih.gov/) and search for "PRJNA294072" you will be shown a link to the "Long-Term Evolution Experiment with E. coli" BioProject. Here is the link to that database: [https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA294072).
 
 2. Once on the BioProject page, scroll down to the table under **"This project encompasses the
-following 14 sub-projects:"**.
+following 15 sub-projects:"**.
 
 3. In this table, select **subproject**
 *"[PRJNA295606](https://www.ncbi.nlm.nih.gov/bioproject/295606)	SRA or Trace	Escherichia coli B str. REL606	E. coli genome evolution over 50,000 generations (The University of Texas at...)"*.
