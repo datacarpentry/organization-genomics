@@ -1,10 +1,10 @@
 ---
-layout: reference
+title: 'Glossary'
 ---
 
 ## Glossary
 
-{:auto_ids}  
+{:auto\_ids}  
 accession
 :   a unique identifier assigned to each sequence or set of sequences
 
@@ -12,13 +12,13 @@ BLAST
 :   The Basic Local Alignment Search Tool at NCBI that searches for similarities between known and unknown biomolecules like DNA
 
 categorical variable
-:   Variables can be classified as categorical (aka, qualitative) or quantitative (aka, numerical). Categorical variables take on a fixed number of values that are names or labels. 
+:   Variables can be classified as categorical (aka, qualitative) or quantitative (aka, numerical). Categorical variables take on a fixed number of values that are names or labels.
 
 cleaned data  
 :   data that has been manipulated post-collection to remove errors or inaccuracies, introduce desired formatting changes, or otherwise prepare the data for analysis
 
 conditional formatting  
-:   formatting that is applied to a specific cell or range of cells depending on a set of criteria  
+:   formatting that is applied to a specific cell or range of cells depending on a set of criteria
 
 CSV (comma separated values) format  
 :   a plain text file format in which values are separated by commas
@@ -36,7 +36,7 @@ headers
 :   names at tops of columns that are descriptive about the column contents (sometimes optional)
 
 metadata  
-:   data which describes other data  
+:   data which describes other data
 
 NGS
 :   common acronym for "Next Generation Sequencing" currently being replaced by "High Throughput Sequencing"
@@ -51,7 +51,7 @@ plain text
 :   unformatted text
 
 quality assurance  
-:   any process which checks data for validity during entry  
+:   any process which checks data for validity during entry
 
 quality control  
 :   any process which removes problematic data from a dataset
@@ -70,3 +70,5 @@ TSV (tab separated values) format
 
 variable  
 :   a category of data being collected on the object being recorded (e.g. a mouse's weight)
+
+
