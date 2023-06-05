@@ -1,0 +1,13 @@
+[Data],,,,,,,,,,,,,,,
+Study_ID,Study_Description,BioSample_ID,BioSample_Description,Sample_ID,Sample_Name,Sample_Owner,Index_ID,Index,Index2_ID,Index2,Organism,Host,Gender,Tissue_Source,FACS_Markers
+3T3_L1,Gene Expression Profiling in differentiating cells,1_2,Day 1 Replicate 2,Day_1_Replicate_2,Day_1_Replicate_2,Owner 1,TruSeq_Adapter_Index_2,ATACTACAGAAG,TruSeq_Adapter_Index_21,CTCAAAGTAGGG,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,1_3,Day 1 Replicate 3,Day_1_Replicate_3,Day_1_Replicate_3,Owner 1,TruSeq_Adapter_Index_3,AACGAATCCACT,TruSeq_Adapter_Index_22,TTATGATAGTCC,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,2_1,Day 2 Replicate 1,Day_2_Replicate_1,Day_2_Replicate_1,Owner 1,TruSeq_Adapter_Index_4,TGACAGGTAATC,TruSeq_Adapter_Index_23,TTTGGTTATTGC,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,2_2,Day 2 Replicate 2,Day_2_Replicate_2,Day_2_Replicate_2,Owner 1,TruSeq_Adapter_Index_5,CTACATAGACCT,TruSeq_Adapter_Index_24,TTTCCCTCCGTC,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,2_3,Day 2 Replicate 3,Day_2_Replicate_3,Day_2_Replicate_3,Owner 1,TruSeq_Adapter_Index_6,GTGCGATTTATC,TruSeq_Adapter_Index_25,GCGGTCGCTTAG,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,4_1,Day 4 Replicate 1,Day_4_Replicate_1,Day_4_Replicate_1,Owner 1,TruSeq_Adapter_Index_7,CAGGGCGGGTGT,TruSeq_Adapter_Index_26,TCCGATGGCAGC,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,4_2,Day 4 Replicate 2,Day_4_Replicate_2,Day_4_Replicate_2,Owner 1,TruSeq_Adapter_Index_8,TGATGCCTCGGG,TruSeq_Adapter_Index_27,TCGGTGACTACT,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,4_3,Day 4 Replicate 3,Day_4_Replicate_3,Day_4_Replicate_3,Owner 1,TruSeq_Adapter_Index_9,TTTATTGCTTGT,TruSeq_Adapter_Index_28,TTATGTGAGAAA,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,5_1,Day 5 Replicate 1,Day_5_Replicate_1,Day_5_Replicate_1,Owner 1,TruSeq_Adapter_Index_10,TTCTTTATGAAC,TruSeq_Adapter_Index_29,TTGGTGGGCGTG,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,5_2,Day 5 Replicate 2,Day_5_Replicate_2,Day_5_Replicate_2,Owner 1,TruSeq_Adapter_Index_11,TACGAAGAGGCG,TruSeq_Adapter_Index_30,AAGTTCGCAGAT,Mouse,,,,
+3T3_L1,Gene Expression Profiling in differentiating cells,5_3,Day 5 Replicate 3,Day_5_Replicate_3,Day_5_Replicate_3,Owner 1,TruSeq_Adapter_Index_12,GAAATCGGCGAC,TruSeq_Adapter_Index_31,AGTTCGTGGTGG,Mouse,,,,
