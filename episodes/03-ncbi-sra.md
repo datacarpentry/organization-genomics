@@ -41,7 +41,7 @@ The excerpt from the paper below includes information on how to locate the seque
 > BioProject database under accession number PRJNA294072. The *breseq*
 > analysis pipeline is available at GitHub ([http://github.com/barricklab/breseq](https://github.com/barricklab/breseq/)).
 > Other analysis scripts are available at the Dryad Digital Repository ([http://dx.doi.org/10.5061/dryad.6226d](https://doi.org/10.5061/dryad.6226d)). R.E.L. will make strains available to qualified
-> recipients, subject to a material transfer agreement. Repreints and permissions
+> recipients, subject to a material transfer agreement. Reprints and permissions
 > information is available at [www.nature.com/reprints](https://www.nature.com/reprints). The authors declare no
 > competing financial interests. Readers are welcome to comment on the online
 > version of the paper. Correspondence and requests for materials should be
