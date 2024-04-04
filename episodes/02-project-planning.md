@@ -133,7 +133,7 @@ The raw data you get back from the sequencing center is the foundation of your s
 
 - Store the data in a place that is accessible by you and other members of your lab. At a minimum, you and the head of your lab should have access.
 - Store the data in a place that is redundantly backed up. It should be backed up in two locations that are in different physical areas.
-- Leave the raw data raw. You will be working with this data, but you do not want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files. We will cover how to avoid accidentally changing files in a later lesson in this workshop [(see File Permissions)](https://datacarpentry.org/shell-genomics/03-working-with-files/#file-permissions).
+- Leave the raw data raw. You will be working with this data, but you do not want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files. We will cover how to avoid accidentally changing files in a later lesson in this workshop [(see File Permissions)](https://datacarpentry.org/shell-genomics/03-working-with-files#file-permissions).
 
 #### Some data storage solutions
 
@@ -141,7 +141,7 @@ If you have a local high performance computing center or data storage facility o
 
 If you do not have access to these resources, you can back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
 
-You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](https://www.datacarpentry.org/cloud-genomics/04-which-cloud/).
+You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](https://www.datacarpentry.org/cloud-genomics/04-which-cloud).
 
 ## Summary
 
