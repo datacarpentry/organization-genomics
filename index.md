@@ -30,7 +30,7 @@ However, learners are expected to have some familiarity with biological concepts
 including the
 concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively.
 
-This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI) hosted by Amazon Web Services (AWS). Workshop participants will be given
+This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI), intended to be run on an Amazon Web Services (AWS) instance. Workshop participants will be given
 information on how
 to log-in to the AWS instance during the workshop. Learners using these materials for self-directed study will need to set up their own
 AMI to launch an instance. Information on setting up an AMI and accessing the required data is provided on the [Genomics Workshop setup page](https://www.datacarpentry.org/genomics-workshop/index.html).
