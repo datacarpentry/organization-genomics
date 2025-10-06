@@ -115,7 +115,7 @@ The cardinal rules of using spreadsheet programs for data:
 
 ## Discussion
 
-This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to your computer via this [link](files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel.
+This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download [the messy metadata data file](files/Ecoli_metadata_composite_messy.xlsx) to your computer and open it in a spreadsheet reader like Excel.
 
 :::::::::::::::  solution
 
